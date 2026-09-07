@@ -45,6 +45,8 @@ input[type=search]:focus{outline:2px solid var(--acc);outline-offset:-1px;border
 .spacer{flex:1}
 button.act{background:var(--panel2);border:1px solid var(--line2);color:var(--ink);padding:7px 13px;border-radius:5px;font:600 12px var(--sans);cursor:pointer}
 button.act:hover{border-color:var(--acc)}
+button.act:disabled{opacity:.4;cursor:default}
+button.act:disabled:hover{border-color:var(--line2)}
 button.act.pri{background:#1f6feb;border-color:#1f6feb;color:#fff}
 button.act.pri:hover{background:#388bfd}
 .tw{width:100%}
@@ -121,6 +123,7 @@ footer{color:var(--dim2);font-size:12px;padding:30px 0 44px;border-top:1px solid
   <button class="chip" data-f="live">Has a service</button>
   <span class="spacer"></span>
   <button class="act" id="allkeep">Keep all visible</button>
+  <button class="act" id="undo" disabled>Undo</button>
   <button class="act" id="reset">Reset</button>
   <button class="act pri" id="exp">Export choices</button>
 </div></div>
@@ -130,6 +133,7 @@ footer{color:var(--dim2);font-size:12px;padding:30px 0 44px;border-top:1px solid
     <b>Two things to know before you choose</b>
     <ol>
       <li><b>Deleting projects barely helps.</b> All 280 projects together are <b>24 GB of the 93 GB</b>. The other <b>58 GB is cache and scratch that rebuilds itself</b> — clearing that costs no work at all and is why the disk keeps refilling. Sort the second table by size and start there.</li>
+      <li><b>A row never moves when you click it.</b> Deciding a row marks it in place and leaves it where it is — earlier the list jumped up under the cursor while the <i>Undecided</i> filter was on, so consecutive clicks hit the wrong projects. <b>Undo</b> steps back through your decisions one at a time, and anything worked on in the last 30 days shows its age in <span style="color:var(--del);font-weight:700">red</span> and is counted separately above.</li>
       <li><b>Two folders are running right now</b> and are marked <span class="tag bad">IN USE NOW</span>: <code>altvaulz-x</code> (cron, ran today) and <code>theeveningbrief</code> (257 live PHP processes). Separately, those 257 processes have been piling up since 21 Aug and hold <b>3.3 GB of RAM on a 14 GB box with no swap</b> — that is a leak worth a look, but I have not touched it.</li>
     </ol>
   </div>
@@ -234,7 +238,7 @@ function renderProjects(){
     return `<tr class="${cls}">
       <td class="nm">${p.name}${note?`<span class="t">${esc(note)}</span>`:''}</td>
       <td class="sz">${fmt(p.kb)}</td>
-      <td class="dt">${p.mod||'—'}<br><span style="color:var(--dim2)">${d<9999?d+'d ago':''}</span></td>
+      <td class="dt">${p.mod||'—'}<br><span style="color:${d<=30?'var(--del)':'var(--dim2)'};font-weight:${d<=30?'700':'400'}">${d<9999?(d===0?'TODAY':d+'d ago'):''}</span></td>
       <td class="bk"><span class="tag ${b.c}">${b.t}</span>${p.live?`<span class="tag ${p.livestate==='running'?'bad':'n'}" style="margin-top:4px;display:inline-block">${p.livestate==='running'?'IN USE NOW':'SERVICE, STOPPED'}</span>`:''}${rem}</td>
       <td class="sz" style="color:${p.junk_kb>20480?'var(--mig)':'var(--dim2)'}">${p.junk_kb>1024?fmt(p.junk_kb):'—'}</td>
       <td class="no">${p.live?`<b style="color:${p.livestate==='running'?'var(--del)':'var(--dim)'}">${esc(p.live)}</b><br>`:''}${esc(p.junk||'')}${p.files?`<span style="color:var(--dim2)"> · ${p.files} files</span>`:''}</td>
@@ -272,23 +276,44 @@ function stats(){
   let n={keep:0,migrate:0,delete:0,undecided:0}, kb={keep:0,migrate:0,delete:0};
   all.forEach(a=>{const c=choice[a.id]; if(c){n[c]++;kb[c]+=a.kb;}else n.undecided++;});
   const freed=kb.delete, after=93*GB/KB - freed;
+  const risky=P.filter(p=>choice[p.name]==='delete'&&daysAgo(p.mod)<=30).length;
   document.getElementById('stats').innerHTML=`
    <div class="stat k"><div class="n">${n.keep}</div><div class="l">Keep · ${fmt(kb.keep)}</div></div>
    <div class="stat m"><div class="n">${n.migrate}</div><div class="l">Migrate · ${fmt(kb.migrate)}</div></div>
    <div class="stat d"><div class="n">${n.delete}</div><div class="l">Delete · ${fmt(kb.delete)}</div></div>
    <div class="stat u"><div class="n">${n.undecided}</div><div class="l">Undecided</div></div>
    <div class="stat"><div class="n" style="color:var(--acc)">${fmt(freed)}</div><div class="l">Space freed</div></div>
+   <div class="stat"><div class="n" style="color:${risky?'var(--del)':'var(--dim2)'}">${risky}</div><div class="l">Deletes worked on &lt;30d</div></div>
    <div class="stat"><div class="n" style="color:${after/(97*GB/KB)>0.9?'var(--del)':'var(--keep)'}">${(after/(GB/KB)).toFixed(1)} GB</div><div class="l">Disk after · of 97 GB</div></div>`;
 }
-function draw(){ renderProjects(); renderSys(); stats(); }
+function applyRow(seg,key){
+  const c=choice[key]||'';
+  seg.querySelectorAll('button').forEach(x=>{
+    const on = x.dataset.v===c;
+    x.className = x.dataset.v[0] + (on?' on '+x.dataset.v[0]:'');
+  });
+  const tr=seg.closest('tr'); tr.className = c?c[0]:'';
+}
+let undo=[];
+function refreshUndo(){
+  const u=document.getElementById('undo');
+  u.disabled = !undo.length;
+  u.textContent = undo.length ? 'Undo ('+undo.length+')' : 'Undo';
+}
+function draw(){ renderProjects(); renderSys(); stats(); refreshUndo(); }
 
 // ---------- events ----------
 document.addEventListener('click',e=>{
   const b=e.target.closest('.seg button');
-  if(b){ const id=b.closest('.seg').dataset.id, v=b.dataset.v, key=id.slice(2);
-    choice[key]= choice[key]===v ? undefined : v;
+  if(b){ const seg=b.closest('.seg'), key=seg.dataset.id.slice(2), v=b.dataset.v;
+    const prev=choice[key]||null;
+    choice[key]= prev===v ? undefined : v;
     if(!choice[key]) delete choice[key];
-    save(); draw(); return; }
+    undo.push([key,prev]); if(undo.length>200) undo.shift();
+    save();
+    applyRow(seg, key);           // in-place: the row NEVER moves under your cursor
+    stats(); refreshUndo();
+    return; }
   const c=e.target.closest('.chip');
   if(c){ document.querySelectorAll('.chip').forEach(x=>x.classList.remove('on')); c.classList.add('on'); filt=c.dataset.f; draw(); return; }
   const th=e.target.closest('th[data-s]');
@@ -296,6 +321,12 @@ document.addEventListener('click',e=>{
     const s=t==='t1'?sort1:sort2; s.d = s.k===k ? -s.d : -1; s.k=k; draw(); }
 });
 document.getElementById('q').addEventListener('input',e=>{qs=e.target.value.trim().toLowerCase();draw();});
+document.getElementById('undo').onclick=()=>{
+  if(!undo.length) return;
+  const [key,prev]=undo.pop();
+  if(prev) choice[key]=prev; else delete choice[key];
+  save(); draw();
+};
 document.getElementById('reset').onclick=()=>{ if(confirm('Clear every decision?')){choice={};save();draw();} };
 document.getElementById('allkeep').onclick=()=>{
   document.querySelectorAll('.seg').forEach(s=>{const k=s.dataset.id.slice(2); if(!choice[k])choice[k]='keep';});
@@ -308,6 +339,13 @@ function report(){
   const grp={delete:[],migrate:[],keep:[]};
   P.forEach(p=>{const c=choice[p.name]; if(c)grp[c].push(['/root/workspace/'+p.name,p.kb,backup(p).t]);});
   S.forEach(s=>{const c=choice[s.path]; if(c)grp[c].push([s.path,s.kb,s.risk.toUpperCase()]);});
+  const recent=P.filter(p=>choice[p.name]==='delete'&&daysAgo(p.mod)<=30)
+                .sort((a,b)=>daysAgo(a.mod)-daysAgo(b.mod));
+  if(recent.length){
+    L.push('');L.push('!! WARNING — '+recent.length+' of the DELETE items were worked on in the last 30 days !!');
+    recent.forEach(p=>L.push('   '+String(daysAgo(p.mod)).padStart(3)+'d ago  '+p.name+(p.live?'   [IN USE]':'')));
+    L.push('   Check these before anything is removed.');
+  }
   ['delete','migrate','keep'].forEach(g=>{
     const t=grp[g].reduce((a,b)=>a+b[1],0);
     L.push('');L.push('== '+g.toUpperCase()+' — '+grp[g].length+' items, '+fmt(t)+' ==');
