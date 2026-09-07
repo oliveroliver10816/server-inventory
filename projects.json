@@ -12,7 +12,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "astro-funnels-teardown",
-"blurb": "Competitive business-model recon on astrology/psychic/\"intuitive-healer\" Facebook ad funnels."
+"blurb": "Competitive business-model recon on astrology/psychic/\"intuitive-healer\" Facebook ad funnels.",
+"created": "2026-07-21"
 },
 {
 "name": "veo-flow-multi",
@@ -27,7 +28,8 @@
 "junk_kb": 1216880,
 "junk": "node_modules(460M) release(727M)",
 "title": "Veo Flow Multi (multi-account Google Flow / Veo 3.1 batch tool)",
-"blurb": "What it is: A standalone Electron Windows desktop app that drives ~10 Google Flow / Veo 3.1 Pro accounts at once \u2014 batch text\u2192image, map each image to an I2V prompt, then fire "
+"blurb": "What it is: A standalone Electron Windows desktop app that drives ~10 Google Flow / Veo 3.1 Pro accounts at once \u2014 batch text\u2192image, map each image to an I2V prompt, then fire ",
+"created": "2026-07-17"
 },
 {
 "name": "vantage",
@@ -42,7 +44,8 @@
 "junk_kb": 787292,
 "junk": "node_modules(414M) win-unpacked(354M)",
 "title": "Vantage (personal residential-proxy fingerprint browser)",
-"blurb": "What it is: An Electron/Chromium desktop browser where each tab routes through a chosen Gonzo Proxy residential/mobile IP with a fully consistent fingerprint (UA + timezone + local"
+"blurb": "What it is: An Electron/Chromium desktop browser where each tab routes through a chosen Gonzo Proxy residential/mobile IP with a fully consistent fingerprint (UA + timezone + local",
+"created": "2026-07-17"
 },
 {
 "name": "abilene-teardown",
@@ -57,7 +60,8 @@
 "junk_kb": 36,
 "junk": "",
 "title": "abilene-teardown \u2014 @itsabilene.tx AI-persona funnel teardown (competitor intel for ai-persona)",
-"blurb": "What this is: Bob asked me to dig 100% deep into the Instagram account @itsabilene.tx (\"Abilene Gentry\"),"
+"blurb": "What this is: Bob asked me to dig 100% deep into the Instagram account @itsabilene.tx (\"Abilene Gentry\"),",
+"created": "2026-08-09"
 },
 {
 "name": "wellaray",
@@ -72,7 +76,8 @@
 "junk_kb": 704,
 "junk": "",
 "title": "wellaray.shop \u2014 Wellaray Slim Coffee Booster affiliate site",
-"blurb": "Sitemap submitted AND fetched by Google (53 URLs, 0 errors). $0 spent."
+"blurb": "Sitemap submitted AND fetched by Google (53 URLs, 0 errors). $0 spent.",
+"created": "2026-08-27"
 },
 {
 "name": "altvaulz-x",
@@ -89,7 +94,8 @@
 "title": "altvaulz-x \u2014 X (Twitter) monetization for @AltVaulz",
 "blurb": "Status 2026-07-27: RESEARCH COMPLETE, VERDICT DELIVERED. Nothing built, nothing posted, no account access",
 "livestate": "running",
-"live": "LIVE CRON \u2014 runs 00:10 and 12:10 daily. Deleting breaks it. NOTE: tracker.py is UNTRACKED, so GitHub does NOT hold it."
+"live": "LIVE CRON \u2014 runs 00:10 and 12:10 daily. Deleting breaks it. NOTE: tracker.py is UNTRACKED, so GitHub does NOT hold it.",
+"created": "2026-07-27"
 },
 {
 "name": "blastup-teardown",
@@ -104,7 +110,8 @@
 "junk_kb": 475420,
 "junk": "node_modules(464M)",
 "title": "blastup-teardown \u2014 Blastup WhatsApp automation: teardown & verdict",
-"blurb": "Status: DELIVERED 2026-08-12. Nothing built against it, nothing deployed, $0 spent."
+"blurb": "Status: DELIVERED 2026-08-12. Nothing built against it, nothing deployed, $0 spent.",
+"created": "2026-08-12"
 },
 {
 "name": "ledger-phish-0903",
@@ -119,7 +126,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "ledger-phish-0903 \u2014 Ledger recovery-phrase phishing teardown (Google Ads cloak)",
-"blurb": "Status: DELIVERED 2026-09-03. Read-only forensic capture of a LIVE phishing operation Bob pulled from a"
+"blurb": "Status: DELIVERED 2026-09-03. Read-only forensic capture of a LIVE phishing operation Bob pulled from a",
+"created": "2026-09-03"
 },
 {
 "name": "trezor-ads-teardown",
@@ -134,7 +142,8 @@
 "junk_kb": 56,
 "junk": "",
 "title": "trezor-ads-teardown \u2014 Google Sites phishing ad postmortem",
-"blurb": "Status: DELIVERED 2026-08-09. Report LIVE (noindex) at"
+"blurb": "Status: DELIVERED 2026-08-09. Report LIVE (noindex) at",
+"created": "2026-08-09"
 },
 {
 "name": "poly-arb",
@@ -149,7 +158,8 @@
 "junk_kb": 77000,
 "junk": ".venv(74M)",
 "title": "poly-arb \u2014 project state",
-"blurb": "The complete Kalshi table is now LOCAL (/tmp/pma-eval/kalshi/, 7,213/7,214 partitions = 72,124,741"
+"blurb": "The complete Kalshi table is now LOCAL (/tmp/pma-eval/kalshi/, 7,213/7,214 partitions = 72,124,741",
+"created": "2026-07-17"
 },
 {
 "name": "fb-1083901614808820-teardown",
@@ -164,7 +174,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-07-21"
 },
 {
 "name": "fleetview",
@@ -179,7 +190,8 @@
 "junk_kb": 236052,
 "junk": "node_modules(170M) node_modules(59M)",
 "title": "FleetView \u2014 aggregated affiliate-offer + GSC command center",
-"blurb": "What it is: A private, login-gated dashboard (like Everflow/Cake) that pulls ALL our affiliate offers + Google Search Console data from every network into one place \u2014 live + stor"
+"blurb": "What it is: A private, login-gated dashboard (like Everflow/Cake) that pulls ALL our affiliate offers + Google Search Console data from every network into one place \u2014 live + stor",
+"created": "2026-07-17"
 },
 {
 "name": "minimax-h3",
@@ -194,7 +206,8 @@
 "junk_kb": 1160,
 "junk": "",
 "title": "minimax-h3 \u2014 MiniMax H3 (Hailuo) open-weights T2V+audio: research + first test on the Beast",
-"blurb": "Started 2026-08-04. Bob sent Comfy-Org/MiniMax-H3 + ethanfel encoder repo + x.com/lutaai/status/2084225803634774219, asked for deep research + start testing on the workstation. IN "
+"blurb": "Started 2026-08-04. Bob sent Comfy-Org/MiniMax-H3 + ethanfel encoder repo + x.com/lutaai/status/2084225803634774219, asked for deep research + start testing on the workstation. IN ",
+"created": "2026-08-04"
 },
 {
 "name": "robust-clo-teardown",
@@ -209,7 +222,8 @@
 "junk_kb": 176680,
 "junk": ".venv(13M) node_modules(19M) .venv(68M) node_modules(5M) .venv(13M) .venv(12M) venv(22M) node_modules(11M)",
 "title": "robust-clo-teardown \u2014 the Cloudbit engine, reverse-engineered (read-only copy)",
-"blurb": "What this folder is: a 207 MB READ-ONLY copy of Bob's 2nd server's \"Cloudbit\" system, pulled to our"
+"blurb": "What this folder is: a 207 MB READ-ONLY copy of Bob's 2nd server's \"Cloudbit\" system, pulled to our",
+"created": "2026-07-25"
 },
 {
 "name": "swagacity",
@@ -224,7 +238,8 @@
 "junk_kb": 177352,
 "junk": "node_modules(173M)",
 "title": "SwagaCity",
-"blurb": "What it is: Browser-based 2D city-builder + economy sim + production chains + single global-server map + RTS war (Go authoritative server + React/Pixi client)."
+"blurb": "What it is: Browser-based 2D city-builder + economy sim + production chains + single global-server map + RTS war (Go authoritative server + React/Pixi client).",
+"created": "2026-07-17"
 },
 {
 "name": "health-fitness-shorts",
@@ -239,7 +254,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "health-fitness-shorts",
-"blurb": "What this is: the \"health and fitness chat for shorts\" project. Bob sends short-form"
+"blurb": "What this is: the \"health and fitness chat for shorts\" project. Bob sends short-form",
+"created": "2026-08-09"
 },
 {
 "name": "reverse-mortgage-assist",
@@ -254,7 +270,8 @@
 "junk_kb": 20,
 "junk": "",
 "title": "Reverse Mortgage Assist \u2014 NewsBreak launch (reverse-mortgage-assist)",
-"blurb": "What it is: Teardown of a US reverse-mortgage (HECM) email-lead offer Bob was given by an"
+"blurb": "What it is: Teardown of a US reverse-mortgage (HECM) email-lead offer Bob was given by an",
+"created": "2026-08-17"
 },
 {
 "name": "google-ads-swipe",
@@ -269,7 +286,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "google-ads-swipe \u2014 Echelonn keyword-research thread + gated LP swipe file",
-"blurb": "What it is: Teardown of a free X thread by Jackson Blackledge (@blvckledge, Echelonn \u2014 Google & YouTube"
+"blurb": "What it is: Teardown of a free X thread by Jackson Blackledge (@blvckledge, Echelonn \u2014 Google & YouTube",
+"created": "2026-07-30"
 },
 {
 "name": "glowzi",
@@ -284,7 +302,8 @@
 "junk_kb": 16,
 "junk": "",
 "title": "Glowzi \u2014 GLP-1/weight-loss offer (Stellar Yonder / Everflow)",
-"blurb": "Status as of 2026-07-20: RESEARCH ONLY. Nothing built, nothing launched, no site."
+"blurb": "Status as of 2026-07-20: RESEARCH ONLY. Nothing built, nothing launched, no site.",
+"created": "2026-07-20"
 },
 {
 "name": "site-batch-0830",
@@ -299,7 +318,8 @@
 "junk_kb": 704,
 "junk": "",
 "title": "site-batch-0830 \u2014 30 online shops with a working cart \u2014 \u2705 DELIVERED 2026-08-31 (rev 2)",
-"blurb": "Bob's instruction, verbatim: \"Create websites into shopping niche and make proper Cart and"
+"blurb": "Bob's instruction, verbatim: \"Create websites into shopping niche and make proper Cart and",
+"created": "2026-08-30"
 },
 {
 "name": "arbforge",
@@ -316,7 +336,8 @@
 "title": "arbforge \u2014 project state",
 "blurb": "Bob: \"shutdown arbforge relay fleet \u00b7 backup the learnings \u2026 make sure NOTHING IS MISSED AT ALL.\"",
 "livestate": "off",
-"live": "Units inactive+disabled since 2026-08-01. Shut down."
+"live": "Units inactive+disabled since 2026-08-01. Shut down.",
+"created": "2026-07-18"
 },
 {
 "name": "glp3b",
@@ -331,7 +352,8 @@
 "junk_kb": 876,
 "junk": "",
 "title": "GLP3-B \u2014 Stellar Yonder affiliate offer (started 2026-08-26)",
-"blurb": "Status: RESEARCH IN FLIGHT. Nothing built, nothing deployed, $0 spent."
+"blurb": "Status: RESEARCH IN FLIGHT. Nothing built, nothing deployed, $0 spent.",
+"created": "2026-08-26"
 },
 {
 "name": "topweightloss-migration",
@@ -346,7 +368,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "topweightloss-migration \u2014 droplet \u2192 GitHub Pages",
-"blurb": "Status 2026-07-30: FULLY LIVE ON GITHUB PAGES. DNS cut over, HTTPS enforced on all 12 sites."
+"blurb": "Status 2026-07-30: FULLY LIVE ON GITHUB PAGES. DNS cut over, HTTPS enforced on all 12 sites.",
+"created": "2026-07-30"
 },
 {
 "name": "site-armor",
@@ -361,7 +384,8 @@
 "junk_kb": 78688,
 "junk": "node_modules(76M)",
 "title": "SiteArmor",
-"blurb": "What it is: A self-serve Node \u226518 CLI (sitearmor) that hardens any built static-site folder against scraping/cloning \u2014 JS obfuscation + double domain-lock + HTML/CSS minify + s"
+"blurb": "What it is: A self-serve Node \u226518 CLI (sitearmor) that hardens any built static-site folder against scraping/cloning \u2014 JS obfuscation + double domain-lock + HTML/CSS minify + s",
+"created": "2026-07-17"
 },
 {
 "name": "hellgrind-harvest",
@@ -376,7 +400,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-04"
 },
 {
 "name": "ai-film-studio",
@@ -391,7 +416,8 @@
 "junk_kb": 8,
 "junk": "",
 "title": "ai-film-studio \u2014 reference teardown + the free local film pipeline",
-"blurb": "LIVE: https://oliveroliver10816.github.io/ai-film-studio/chapter-one/ (noindex)"
+"blurb": "LIVE: https://oliveroliver10816.github.io/ai-film-studio/chapter-one/ (noindex)",
+"created": "2026-07-31"
 },
 {
 "name": "baby-name-goyal",
@@ -406,7 +432,8 @@
 "junk_kb": 80,
 "junk": "",
 "title": "baby-name-goyal \u2014 Vedic astrology + numerology baby name (Bob's ask, 2026-07-31)",
-"blurb": "Status: PUBLISHED 2026-07-31 \u2014 FOUR pages. Live at https://opheliaclarke.github.io/baby-name-goyal/"
+"blurb": "Status: PUBLISHED 2026-07-31 \u2014 FOUR pages. Live at https://opheliaclarke.github.io/baby-name-goyal/",
+"created": "2026-07-31"
 },
 {
 "name": "vegtoons",
@@ -421,7 +448,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Veg-Toon Studio (Hindi \u0938\u092c\u094d\u091c\u093c\u0940 \u0915\u093e\u0930\u094d\u091f\u0942\u0928 YouTube content studio)",
-"blurb": "What it is: Internal team workspace + playbook for building Hindi vegetable-drama (anthropomorphic sabzi) YouTube channels \u2014 competitor teardown, ready-to-shoot AI story scripts "
+"blurb": "What it is: Internal team workspace + playbook for building Hindi vegetable-drama (anthropomorphic sabzi) YouTube channels \u2014 competitor teardown, ready-to-shoot AI story scripts ",
+"created": "2026-07-17"
 },
 {
 "name": "rugiet-newsbreak",
@@ -436,7 +464,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Rugiet \u00d7 NewsBreak \u2014 Creative Launch Kit (rugiet-newsbreak)",
-"blurb": "What it is: A creative launch kit (static HTML boards + Python generator scripts) for running Rugiet Ready (ED treatment) native ads on NewsBreak \u2014 organizes videos, images, head"
+"blurb": "What it is: A creative launch kit (static HTML boards + Python generator scripts) for running Rugiet Ready (ED treatment) native ads on NewsBreak \u2014 organizes videos, images, head",
+"created": "2026-07-17"
 },
 {
 "name": "zansaar",
@@ -451,7 +480,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "railhead",
@@ -466,7 +496,8 @@
 "junk_kb": 20,
 "junk": "",
 "title": "Railhead \u2014 white-label rail booking platform (client: tourism/travel booking)",
-"blurb": "LIVE: https://robertmccormick7954.github.io/railhead-demo/"
+"blurb": "LIVE: https://robertmccormick7954.github.io/railhead-demo/",
+"created": "2026-08-06"
 },
 {
 "name": "yebhi",
@@ -481,7 +512,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "site-batch-0815",
@@ -496,7 +528,8 @@
 "junk_kb": 2820,
 "junk": "",
 "title": "site-batch-0815 \u2014 30 sites in two batches (brands 1\u201330 of Bob's list) \u2014 \u2705 BOTH DELIVERED",
-"blurb": "He was angry about three things, in his words: set-domain.sh in every folder, a"
+"blurb": "He was angry about three things, in his words: set-domain.sh in every folder, a",
+"created": "2026-08-15"
 },
 {
 "name": "mangostreet",
@@ -511,7 +544,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "wego6",
@@ -526,7 +560,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "WEGO6 \u2014 offer diligence (NL \u00b7 DE \u00b7 UK)",
-"blurb": "Status 2026-07-27: RESEARCH DONE, DECISION MADE (GO), NOTHING BUILT. Awaiting domain from Bob."
+"blurb": "Status 2026-07-27: RESEARCH DONE, DECISION MADE (GO), NOTHING BUILT. Awaiting domain from Bob.",
+"created": "2026-07-27"
 },
 {
 "name": "akemi",
@@ -541,7 +576,8 @@
 "junk_kb": 12,
 "junk": "",
 "title": "Akemi Coffee Boost \u2014 affiliate offer (Stellar Yonder)",
-"blurb": "Status: RESEARCH IN PROGRESS (started 2026-08-26). Nothing built, nothing bought, nothing pushed, $0 spent."
+"blurb": "Status: RESEARCH IN PROGRESS (started 2026-08-26). Nothing built, nothing bought, nothing pushed, $0 spent.",
+"created": "2026-08-26"
 },
 {
 "name": "totokaelo",
@@ -556,7 +592,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "ribboncera-gdn",
@@ -571,7 +608,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "ribboncera-gdn \u2014 Google Display Network creative pack",
-"blurb": "Status: BUILT + DELIVERED 2026-08-06. Nothing uploaded to any ad account, $0 spent."
+"blurb": "Status: BUILT + DELIVERED 2026-08-06. Nothing uploaded to any ad account, $0 spent.",
+"created": "2026-08-06"
 },
 {
 "name": "aporv",
@@ -586,7 +624,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "standing-desk-india",
@@ -601,7 +640,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Standing Desk India",
-"blurb": "What it is: A static research/comparison site \u2014 a size-first shortlist of electric height-adjustable L-shaped standing desks in India for a 6\u00d76 ft dual-PC corner setup. Leads wi"
+"blurb": "What it is: A static research/comparison site \u2014 a size-first shortlist of electric height-adjustable L-shaped standing desks in India for a 6\u00d76 ft dual-PC corner setup. Leads wi",
+"created": "2026-07-17"
 },
 {
 "name": "lyonpost",
@@ -616,7 +656,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "fashionplaytes",
@@ -631,7 +672,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "site-batch-0804",
@@ -646,7 +688,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "site-batch-0804 \u2014 25-site Google-Ads ad batch \u2014 \u2705 DELIVERED 2026-08-04",
-"blurb": "Delivery page (noindex): oliveroliver10816.github.io/site-packages-0804/ \u00b7 repo"
+"blurb": "Delivery page (noindex): oliveroliver10816.github.io/site-packages-0804/ \u00b7 repo",
+"created": "2026-08-04"
 },
 {
 "name": "ad-generator",
@@ -661,7 +704,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "ad-generator \u2014 Google display images, read off any website",
-"blurb": "Status: REBUILT 2026-08-06 (third pass). Nothing uploaded to any ad account, $0 spent."
+"blurb": "Status: REBUILT 2026-08-06 (third pass). Nothing uploaded to any ad account, $0 spent.",
+"created": "2026-08-06"
 },
 {
 "name": "dressbydesign",
@@ -676,7 +720,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "pioneergoods",
@@ -691,7 +736,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "shophers",
@@ -706,7 +752,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "lunaya-recon",
@@ -721,7 +768,8 @@
 "junk_kb": 12032,
 "junk": "node_modules(11M)",
 "title": "Lunaya Cloaking Teardown \u2014 Recon Workspace (lunaya-recon)",
-"blurb": "What it is: Ad-cloaking recon workspace that tore down shop.lunaya.net \u2014 a Google-Ads cloak that serves a clean yoga/store page to scanners but a fake-Microsoft tech-support brow"
+"blurb": "What it is: Ad-cloaking recon workspace that tore down shop.lunaya.net \u2014 a Google-Ads cloak that serves a clean yoga/store page to scanners but a fake-Microsoft tech-support brow",
+"created": "2026-07-17"
 },
 {
 "name": "ara-crypto-tax",
@@ -736,7 +784,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Ara Tax Services LLC \u2014 crypto tax filing site",
-"blurb": "Client: Ara Tax Services LLC, San Ramon, California. New to tax filing, moving into"
+"blurb": "Client: Ara Tax Services LLC, San Ramon, California. New to tax filing, moving into",
+"created": "2026-08-01"
 },
 {
 "name": "longcat-video",
@@ -751,7 +800,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "longcat-video \u2014 LongCat-Video-Avatar 1.5 diligence",
-"blurb": "Status (2026-07-30): RESEARCH DELIVERED. Nothing built, installed, bought or posted."
+"blurb": "Status (2026-07-30): RESEARCH DELIVERED. Nothing built, installed, bought or posted.",
+"created": "2026-07-30"
 },
 {
 "name": "studio28",
@@ -766,7 +816,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "unamia",
@@ -781,7 +832,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "osanix",
@@ -796,7 +848,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Osanix / Ozalyn affiliate-SEO site (osanix.shop)",
-"blurb": "What it is: Multi-geo affiliate/SEO site for the Ozalyn weight-loss capsule (also"
+"blurb": "What it is: Multi-geo affiliate/SEO site for the Ozalyn weight-loss capsule (also",
+"created": "2026-07-17"
 },
 {
 "name": "fashionara",
@@ -811,7 +864,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "threadflip",
@@ -826,7 +880,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "shersingh",
@@ -841,7 +896,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "fb-108390161480820-teardown",
@@ -856,7 +912,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-07-21"
 },
 {
 "name": "glp3b-links",
@@ -871,7 +928,8 @@
 "junk_kb": 16,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-28"
 },
 {
 "name": "moveloot",
@@ -886,7 +944,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "twice",
@@ -901,7 +960,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "jackthreads",
@@ -916,7 +976,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "seat14a",
@@ -931,7 +992,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "bambeco",
@@ -946,7 +1008,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "ninetynine",
@@ -961,7 +1024,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "bobla-token",
@@ -976,7 +1040,8 @@
 "junk_kb": 14404,
 "junk": "node_modules(14M)",
 "title": "bobla-token \u2014 make a token with 100M supply that shows a real price",
-"blurb": "Contract 0xC55C4164F434CA7a219754D070Fd1DdB9f1f0AD2 (Polygon 137) \u00b7 pair"
+"blurb": "Contract 0xC55C4164F434CA7a219754D070Fd1DdB9f1f0AD2 (Polygon 137) \u00b7 pair",
+"created": "2026-08-10"
 },
 {
 "name": "newsroom-2",
@@ -991,7 +1056,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Newsroom-2 \u2014 Plumbline News & Lodestar Wire",
-"blurb": "Two independent full-text news sites, built 2026-08-21\u219223. Both LIVE, both $0.00/month."
+"blurb": "Two independent full-text news sites, built 2026-08-21\u219223. Both LIVE, both $0.00/month.",
+"created": "2026-08-21"
 },
 {
 "name": "zovi",
@@ -1006,7 +1072,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "pickwickweller",
@@ -1021,7 +1088,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "miraistore",
@@ -1036,7 +1104,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "ariainsights",
@@ -1051,7 +1120,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "mailbox",
@@ -1066,7 +1136,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "quincyapparel",
@@ -1081,7 +1152,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "singulution",
@@ -1096,7 +1168,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "dotcloud",
@@ -1111,7 +1184,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "markafoni",
@@ -1126,7 +1200,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "deploy-bot",
@@ -1141,7 +1216,8 @@
 "junk_kb": 12,
 "junk": "",
 "title": "deploy-bot \u2014 push a file from Telegram \u2192 repo updates \u2192 Heroku app deploys",
-"blurb": "What it is: A Telegram bot that lets Bob or the VA send a single file, tap which site it"
+"blurb": "What it is: A Telegram bot that lets Bob or the VA send a single file, tap which site it",
+"created": "2026-08-12"
 },
 {
 "name": "foundationdb",
@@ -1156,7 +1232,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "rewardme",
@@ -1171,7 +1248,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "copious",
@@ -1186,7 +1264,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "optier",
@@ -1201,7 +1280,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "dropio",
@@ -1216,7 +1296,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-16"
 },
 {
 "name": "bagskart",
@@ -1231,7 +1312,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "layervault",
@@ -1246,7 +1328,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "svpply",
@@ -1261,7 +1344,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "neurovitol",
@@ -1276,7 +1360,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "NeuroVitol \u2014 brain-supplement affiliate SEO site",
-"blurb": "What it is: Static SEO/affiliate site for \"NeuroVitol Advanced Brain Support\" (brain/cognitive supplement, $200 payout), built for organic SEO + Google Search ads cross-bidding in "
+"blurb": "What it is: Static SEO/affiliate site for \"NeuroVitol Advanced Brain Support\" (brain/cognitive supplement, $200 payout), built for organic SEO + Google Search ads cross-bidding in ",
+"created": "2026-07-17"
 },
 {
 "name": "akemi-site",
@@ -1291,7 +1376,8 @@
 "junk_kb": 124,
 "junk": "",
 "title": "akemicoffeeboost.shop \u2014 the site",
-"blurb": "\ud83d\udfe2 LIVE 2026-08-27 at https://akemicoffeeboost.shop (and www). Cloudflare Workers, Bob's own"
+"blurb": "\ud83d\udfe2 LIVE 2026-08-27 at https://akemicoffeeboost.shop (and www). Cloudflare Workers, Bob's own",
+"created": "2026-08-26"
 },
 {
 "name": "totsy",
@@ -1306,7 +1392,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-16"
 },
 {
 "name": "postrocket",
@@ -1321,7 +1408,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "localtown",
@@ -1336,7 +1424,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-16"
 },
 {
 "name": "matterfab",
@@ -1351,7 +1440,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "worldos",
@@ -1366,7 +1456,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-16"
 },
 {
 "name": "fabfurnish",
@@ -1381,7 +1472,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-30"
 },
 {
 "name": "naturalregeneration",
@@ -1396,7 +1488,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "naturalregeneration.org \u2014 BUILT 2026-08-04 (not deployed)",
-"blurb": "Part of site-batch-0804. Built to /root/workspace/site-batch-0804/STANDARD.md +"
+"blurb": "Part of site-batch-0804. Built to /root/workspace/site-batch-0804/STANDARD.md +",
+"created": "2026-08-04"
 },
 {
 "name": "skenicanal",
@@ -1411,7 +1504,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "skenicanal.com \u2014 Europe scenic-canals travel guide (batch 0804)",
-"blurb": "Status: BUILT + QA-passed 2026-08-04. 9 pages, 9 images, widget verified."
+"blurb": "Status: BUILT + QA-passed 2026-08-04. 9 pages, 9 images, widget verified.",
+"created": "2026-08-04"
 },
 {
 "name": "nepalnetworks",
@@ -1426,7 +1520,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "nepalnetworks \u2014 Nepal Networks (nepalnetworks.org)",
-"blurb": "Status: BUILT 2026-08-04, QA-tested locally, not deployed. Part of site-batch-0804."
+"blurb": "Status: BUILT 2026-08-04, QA-tested locally, not deployed. Part of site-batch-0804.",
+"created": "2026-08-04"
 },
 {
 "name": "argylesocial",
@@ -1441,7 +1536,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "luxedosug",
@@ -1456,7 +1552,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "luxedosug \u2014 Luxe Dosug (luxe-dosug.org)",
-"blurb": "Status: BUILT, QA PASS (batch qasite.py: 0 failures, 9 pages), NOT deployed."
+"blurb": "Status: BUILT, QA PASS (batch qasite.py: 0 failures, 9 pages), NOT deployed.",
+"created": "2026-08-04"
 },
 {
 "name": "salorix",
@@ -1471,7 +1568,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "arsdigita",
@@ -1486,7 +1584,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "springpad",
@@ -1501,7 +1600,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "toygaroo",
@@ -1516,7 +1616,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-16"
 },
 {
 "name": "appiterate",
@@ -1531,7 +1632,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "picnik",
@@ -1546,7 +1648,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-16"
 },
 {
 "name": "wego6-site",
@@ -1561,7 +1664,8 @@
 "junk_kb": 176,
 "junk": "",
 "title": "buy-wego6.com \u2014 WEGO6 multi-geo affiliate site",
-"blurb": "Status 2026-07-28: BUILT + DEPLOYED + AUDIT-FIXED + EXPANDED. 46 content pages + root, 10 geos."
+"blurb": "Status 2026-07-28: BUILT + DEPLOYED + AUDIT-FIXED + EXPANDED. 46 content pages + root, 10 geos.",
+"created": "2026-07-27"
 },
 {
 "name": "lookery",
@@ -1576,7 +1680,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "diosencopa",
@@ -1591,7 +1696,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "diosencopa \u2014 diosencopa.com (batch 0804)",
-"blurb": "STATUS: BUILT, QA PASS (qasite.py 0 failures, 9 pages). Not deployed."
+"blurb": "STATUS: BUILT, QA PASS (qasite.py 0 failures, 9 pages). Not deployed.",
+"created": "2026-08-04"
 },
 {
 "name": "motionthink",
@@ -1606,7 +1712,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "howellmarket",
@@ -1621,7 +1728,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-16"
 },
 {
 "name": "rodarbeach",
@@ -1636,7 +1744,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "rodarbeach \u2014 Rodar Beach (rodarbeach.com)",
-"blurb": "Status: BUILT + self-QA passed 2026-08-04. Part of site-batch-0804."
+"blurb": "Status: BUILT + self-QA passed 2026-08-04. Part of site-batch-0804.",
+"created": "2026-08-04"
 },
 {
 "name": "reel-brain",
@@ -1651,7 +1760,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "reel-brain \u2014 persona-reel teardown \u2192 production skill",
-"blurb": "What it is: Frame-by-frame teardown of 138 supplied Facebook reels from pages running the"
+"blurb": "What it is: Frame-by-frame teardown of 138 supplied Facebook reels from pages running the",
+"created": "2026-08-16"
 },
 {
 "name": "sisnegocio",
@@ -1666,7 +1776,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "sisnegocio \u2014 sisnegocio.com (batch 0804) \u2014 BUILT, QA PASS",
-"blurb": "Small-business SYSTEMS & operations guide (\"Sis\" = sistemas para tu negocio, English-first site)."
+"blurb": "Small-business SYSTEMS & operations guide (\"Sis\" = sistemas para tu negocio, English-first site).",
+"created": "2026-08-04"
 },
 {
 "name": "nutressentials",
@@ -1681,7 +1792,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "nutressentials \u2014 nutressentials.org (batch 0804)",
-"blurb": "Status: BUILT + tested 2026-08-04. Not deployed. Excluded from ZIP: this file, candidates/, qa/."
+"blurb": "Status: BUILT + tested 2026-08-04. Not deployed. Excluded from ZIP: this file, candidates/, qa/.",
+"created": "2026-08-04"
 },
 {
 "name": "transpose",
@@ -1696,7 +1808,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "rethinkdb",
@@ -1711,7 +1824,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "remodular",
@@ -1726,7 +1840,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "remodular \u2014 Re:Modular (re-modular.com) \u00b7 batch 0804",
-"blurb": "Status: BUILT, QA PASS (qasite.py: 0 failures, 9 pages). Not deployed."
+"blurb": "Status: BUILT, QA PASS (qasite.py: 0 failures, 9 pages). Not deployed.",
+"created": "2026-08-04"
 },
 {
 "name": "trycoolizi",
@@ -1741,7 +1856,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "trycoolizi (Coolizi Portable AC \u2014 EU affiliate review site)",
-"blurb": "What it is: Static, multi-geo affiliate \"review\" site for a portable/evaporative air cooler, built to own the brand SERP in 8 EU languages and route buyers to an affiliate checkout"
+"blurb": "What it is: Static, multi-geo affiliate \"review\" site for a portable/evaporative air cooler, built to own the brand SERP in 8 EU languages and route buyers to an affiliate checkout",
+"created": "2026-07-17"
 },
 {
 "name": "news-platform",
@@ -1756,7 +1872,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "news-platform \u2014 the monetizable news site (brand TBD)",
-"blurb": "What it is: Bob's next news property \u2014 one professional, monetizable general-news site built to look and"
+"blurb": "What it is: Bob's next news property \u2014 one professional, monetizable general-news site built to look and",
+"created": "2026-09-06"
 },
 {
 "name": "cloak-teardown",
@@ -1771,7 +1888,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Cloak Teardown (ad-cloaking post-mortem + study guide)",
-"blurb": "What it is: A defensive, two-page security site dissecting a Google-Ads ad-cloaking scam (\"kelveronia\") \u2014 the mouse-move-gated white/black page switch that hides a fake \"Microsof"
+"blurb": "What it is: A defensive, two-page security site dissecting a Google-Ads ad-cloaking scam (\"kelveronia\") \u2014 the mouse-move-gated white/black page switch that hides a fake \"Microsof",
+"created": "2026-07-17"
 },
 {
 "name": "zapstream",
@@ -1786,7 +1904,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-16"
 },
 {
 "name": "pixate",
@@ -1801,7 +1920,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-15"
 },
 {
 "name": "beepi",
@@ -1816,7 +1936,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-16"
 },
 {
 "name": "theeveningbrief",
@@ -1833,7 +1954,8 @@
 "title": "The Evening Brief \u2014 theeveningbrief.com",
 "blurb": "What it is: a dynamic US-first news aggregation site, modelled on (and built to beat)",
 "livestate": "running",
-"live": "LIVE \u2014 php processes running from this folder right now."
+"live": "LIVE \u2014 php processes running from this folder right now.",
+"created": "2026-08-19"
 },
 {
 "name": "theinfotainmenteconomy",
@@ -1848,7 +1970,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "theinfotainmenteconomy.org \u2014 build notes (excluded from ZIP)",
-"blurb": "Status: BUILT 2026-08-04, QA-passed locally (playwright). Not deployed."
+"blurb": "Status: BUILT 2026-08-04, QA-passed locally (playwright). Not deployed.",
+"created": "2026-08-04"
 },
 {
 "name": "farinateam",
@@ -1863,7 +1986,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Farina Team (farinateam.com) \u2014 build notes",
-"blurb": "Status: BUILT + QA-passed 2026-08-04. Part of site-batch-0804. Not deployed, not packaged."
+"blurb": "Status: BUILT + QA-passed 2026-08-04. Part of site-batch-0804. Not deployed, not packaged.",
+"created": "2026-08-04"
 },
 {
 "name": "onlydiosas",
@@ -1878,7 +2002,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "onlydiosas \u2014 onlydiosas.com (batch 0804)",
-"blurb": "Mythology-goddess encyclopedia, museum-classic design. BUILT 2026-08-04. Excluded from ZIP."
+"blurb": "Mythology-goddess encyclopedia, museum-classic design. BUILT 2026-08-04. Excluded from ZIP.",
+"created": "2026-08-04"
 },
 {
 "name": "routenio",
@@ -1893,7 +2018,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "routenio \u2014 Client GTM: first customers for RouteNio",
-"blurb": "What: RouteNio (routenio.com) is a client's brand-new AI fleet & logistics SaaS. Job = build"
+"blurb": "What: RouteNio (routenio.com) is a client's brand-new AI fleet & logistics SaaS. Job = build",
+"created": "2026-07-20"
 },
 {
 "name": "ribboncera",
@@ -1908,7 +2034,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "ribboncera \u2014 candle-making & wax-craft hobby guide (batch 0804)",
-"blurb": "Status: BUILT + QA-passed (playwright), not deployed. Domain ribboncera.com."
+"blurb": "Status: BUILT + QA-passed (playwright), not deployed. Domain ribboncera.com.",
+"created": "2026-08-04"
 },
 {
 "name": "glpure",
@@ -1923,7 +2050,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "GLPure \u2014 SEO site (glpure.shop)",
-"blurb": "What it is: A multi-geo EU affiliate SEO site for GLPure \u2014 a natural, berberine-based \"GLP-1 support\" food supplement in CAPSULES (90 ct / 500 mg / 30-day), NOT a medicine, patch"
+"blurb": "What it is: A multi-geo EU affiliate SEO site for GLPure \u2014 a natural, berberine-based \"GLP-1 support\" food supplement in CAPSULES (90 ct / 500 mg / 30-day), NOT a medicine, patch",
+"created": "2026-07-17"
 },
 {
 "name": "guncontrolessay",
@@ -1938,7 +2066,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "guncontrolessay \u2014 GunControlEssay.org \"The Argument Workshop\" (batch 0804)",
-"blurb": "Status: BUILT + self-QA passed 2026-08-04. Not deployed, not packaged, no git."
+"blurb": "Status: BUILT + self-QA passed 2026-08-04. Not deployed, not packaged, no git.",
+"created": "2026-08-04"
 },
 {
 "name": "thevedafoundation",
@@ -1953,7 +2082,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "thevedafoundation.org \u2014 build notes (batch 0804)",
-"blurb": "Status: BUILT, QA PASS (qasite.py 0 failures, 9 pages), NOT deployed."
+"blurb": "Status: BUILT, QA PASS (qasite.py 0 failures, 9 pages), NOT deployed.",
+"created": "2026-08-04"
 },
 {
 "name": "rutacargas",
@@ -1968,7 +2098,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "rutacargas \u2014 rutacargas.com (site-batch-0804)",
-"blurb": "Status: BUILT, QA PASS (qasite.py: 0 failures, 9 pages), not deployed."
+"blurb": "Status: BUILT, QA PASS (qasite.py: 0 failures, 9 pages), not deployed.",
+"created": "2026-08-04"
 },
 {
 "name": "jwilliambaxter",
@@ -1983,7 +2114,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "jwilliambaxter.org \u2014 personal essay site (batch 0804)",
-"blurb": "Status: BUILT + self-QA passed 2026-08-04. Not deployed; part of site-batch-0804."
+"blurb": "Status: BUILT + self-QA passed 2026-08-04. Not deployed; part of site-batch-0804.",
+"created": "2026-08-04"
 },
 {
 "name": "robust-clo",
@@ -1998,7 +2130,8 @@
 "junk_kb": 424,
 "junk": "",
 "title": "robust-clo \u2014 the bridge-spread arbitrage engine (Phase 1 of the Cloudbit rebuild)",
-"blurb": "What this is: our own, isolated, running re-build of the Cloudbit CORE money-maker \u2014"
+"blurb": "What this is: our own, isolated, running re-build of the Cloudbit CORE money-maker \u2014",
+"created": "2026-07-25"
 },
 {
 "name": "ecourts-directory",
@@ -2013,7 +2146,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "ecourts-directory \u2014 per-lawyer eCourts case directory (feasibility + build plan)",
-"blurb": "Status (2026-08-15): RESEARCH COMPLETE, deliverable LIVE, nothing built, \u20b90 spent, no accounts created."
+"blurb": "Status (2026-08-15): RESEARCH COMPLETE, deliverable LIVE, nothing built, \u20b90 spent, no accounts created.",
+"created": "2026-08-15"
 },
 {
 "name": "lead-ledger-bob-olivia",
@@ -2028,7 +2162,8 @@
 "junk_kb": 28,
 "junk": "",
 "title": "lead-ledger-bob-olivia \u2014 Bob \u2194 Olivia daily lead settlement",
-"blurb": "Status: DELIVERED 2026-08-12. \u2b50 Bob's follow-up the same day: \"put it on a git so an excel is"
+"blurb": "Status: DELIVERED 2026-08-12. \u2b50 Bob's follow-up the same day: \"put it on a git so an excel is",
+"created": "2026-08-12"
 },
 {
 "name": "jetterix-dash",
@@ -2043,7 +2178,8 @@
 "junk_kb": 16,
 "junk": "",
 "title": "Jetterix \u2014 Dashboard (Command Center)",
-"blurb": "What it is: The analytics/command-center dashboard for the Jetterix affiliate site (tryjetterix.com). Pulls Google Search Console + OasisAds funnel data (impressions \u2192 site click"
+"blurb": "What it is: The analytics/command-center dashboard for the Jetterix affiliate site (tryjetterix.com). Pulls Google Search Console + OasisAds funnel data (impressions \u2192 site click",
+"created": "2026-07-17"
 },
 {
 "name": "lead-split",
@@ -2058,7 +2194,8 @@
 "junk_kb": 52,
 "junk": "",
 "title": "lead-split \u2014 Tyson & Berry lead-sale settlement",
-"blurb": "Bob asked how much moves after Berry's $500 advance on day 1 (and nothing since, either way)."
+"blurb": "Bob asked how much moves after Berry's $500 advance on day 1 (and nothing since, either way).",
+"created": "2026-08-08"
 },
 {
 "name": "_delivery",
@@ -2073,7 +2210,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-07-22"
 },
 {
 "name": "818film",
@@ -2088,7 +2226,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "818film \u2014 818film.org (batch 0804)",
-"blurb": "Status: BUILT 2026-08-04, QA-passed locally, not deployed. Excluded from ZIP."
+"blurb": "Status: BUILT 2026-08-04, QA-passed locally, not deployed. Excluded from ZIP.",
+"created": "2026-08-04"
 },
 {
 "name": "rojascig",
@@ -2103,7 +2242,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "rojascig \u2014 rojas-cig.com (site-batch-0804)",
-"blurb": "Status: BUILT, QA PASS (qasite.py 0 failures, 9 pages), not deployed."
+"blurb": "Status: BUILT, QA PASS (qasite.py 0 failures, 9 pages), not deployed.",
+"created": "2026-08-04"
 },
 {
 "name": "ridansoft",
@@ -2118,7 +2258,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Ridansoft (ridansoft.com) \u2014 batch 0804",
-"blurb": "Status: BUILT + QA-passed 2026-08-04. Not deployed. Part of the site-batch-0804 ad batch;"
+"blurb": "Status: BUILT + QA-passed 2026-08-04. Not deployed. Part of the site-batch-0804 ad batch;",
+"created": "2026-08-04"
 },
 {
 "name": "sisodental",
@@ -2133,7 +2274,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "sisodental \u2014 sisodental.com (batch 0804)",
-"blurb": "Status: BUILT + QA-tested locally (2026-08-04). Not deployed, not packaged."
+"blurb": "Status: BUILT + QA-tested locally (2026-08-04). Not deployed, not packaged.",
+"created": "2026-08-04"
 },
 {
 "name": "scientificu",
@@ -2148,7 +2290,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "scientificu \u2014 scientific-u.org (batch 0804)",
-"blurb": "Status: BUILT + tested 2026-08-04. 9 pages, textbook-clear design per brief"
+"blurb": "Status: BUILT + tested 2026-08-04. 9 pages, textbook-clear design per brief",
+"created": "2026-08-04"
 },
 {
 "name": "yottio",
@@ -2163,7 +2306,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-16"
 },
 {
 "name": "agentic-inbox",
@@ -2178,7 +2322,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "agentic-inbox \u2014 REFERENCE CLONE (not one of our projects)",
-"blurb": "Status: upstream clone of https://github.com/cloudflare/agentic-inbox, kept on disk purely as the"
+"blurb": "Status: upstream clone of https://github.com/cloudflare/agentic-inbox, kept on disk purely as the",
+"created": "2026-07-17"
 },
 {
 "name": "tryretafit",
@@ -2193,7 +2338,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "tryretafit.com \u2014 RetaFit affiliate/SEO site",
-"blurb": "Bob (angry it was missing): \"cater ALL the basic search queries that pull 70\u201380% of traffic.\" The German"
+"blurb": "Bob (angry it was missing): \"cater ALL the basic search queries that pull 70\u201380% of traffic.\" The German",
+"created": "2026-07-17"
 },
 {
 "name": "coolizi-dash",
@@ -2208,7 +2354,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Coolizi Dashboard (cz-dash \u2014 SEO + affiliate command center)",
-"blurb": "What it is: The live \"SEO Command Center\" dashboard for the trycoolizi.com affiliate site \u2014 pulls Google Search Console + affiliate-network data and renders index-status, ranking"
+"blurb": "What it is: The live \"SEO Command Center\" dashboard for the trycoolizi.com affiliate site \u2014 pulls Google Search Console + affiliate-network data and renders index-status, ranking",
+"created": "2026-07-17"
 },
 {
 "name": "ringondemand",
@@ -2223,7 +2370,8 @@
 "junk_kb": 36,
 "junk": "",
 "title": "Ring On Demand \u2014 Plumbing Pay-Per-Call (ringondemand)",
-"blurb": "What it is: Plumbing pay-per-call PPC operation (Google Ads \u2192 Ringba tracked calls) across \"Plumber Elite\" city sites, plus the client-facing analysis/reporting dashboard."
+"blurb": "What it is: Plumbing pay-per-call PPC operation (Google Ads \u2192 Ringba tracked calls) across \"Plumber Elite\" city sites, plus the client-facing analysis/reporting dashboard.",
+"created": "2026-07-17"
 },
 {
 "name": "gcalit",
@@ -2238,7 +2386,8 @@
 "junk_kb": 12,
 "junk": "",
 "title": "gcalit \u2014 front-end rebuild of gcalit.org",
-"blurb": "Status: DELIVERED 2026-08-15 \u2014 LIVE PREVIEW at https://opheliaclarke.github.io/gcalit-rebuild/"
+"blurb": "Status: DELIVERED 2026-08-15 \u2014 LIVE PREVIEW at https://opheliaclarke.github.io/gcalit-rebuild/",
+"created": "2026-08-14"
 },
 {
 "name": "shblogingo",
@@ -2253,7 +2402,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "shblogingo \u2014 shblogingo.com (batch 0804)",
-"blurb": "Start-a-hobby-blog guide site. BUILT 2026-08-04, QA-passed locally, not deployed."
+"blurb": "Start-a-hobby-blog guide site. BUILT 2026-08-04, QA-passed locally, not deployed.",
+"created": "2026-08-04"
 },
 {
 "name": "violetphoenix",
@@ -2268,7 +2418,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "violetphoenix \u2014 violetphoenix.org (batch 0804)",
-"blurb": "Status: BUILT + tested, not deployed. Online poetry & flash-fiction zine per brief; .ORG rules honored."
+"blurb": "Status: BUILT + tested, not deployed. Online poetry & flash-fiction zine per brief; .ORG rules honored.",
+"created": "2026-08-04"
 },
 {
 "name": "alaelder",
@@ -2283,7 +2434,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "alaelder \u2014 Ala Elder (alaelder.org)",
-"blurb": "Family-storytelling publication: recording family history with elders. Built 2026-08-04 for the"
+"blurb": "Family-storytelling publication: recording family history with elders. Built 2026-08-04 for the",
+"created": "2026-08-04"
 },
 {
 "name": "lendpeak-lander",
@@ -2298,7 +2450,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "LendPeak \u2014 Funding Website + Campaign Ops (lendpeak-lander)",
-"blurb": "What it is: The public multi-program business-funding landing-page website for LendPeak (Leo's 2nd business, same client as RingOnDemand), built to serve at lendpeak.com/funding/, "
+"blurb": "What it is: The public multi-program business-funding landing-page website for LendPeak (Leo's 2nd business, same client as RingOnDemand), built to serve at lendpeak.com/funding/, ",
+"created": "2026-07-17"
 },
 {
 "name": "tryjetterix",
@@ -2313,7 +2466,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "tryjetterix (Jetterix / \"Hydro Splash\" \u2014 high-pressure hose-nozzle affiliate review site)",
-"blurb": "What it is: Static, multi-geo affiliate \"review\" site for a high-pressure garden-hose NOZZLE attachment (clips on any hose, no motor/electricity). Sister build to trycoolizi, rebra"
+"blurb": "What it is: Static, multi-geo affiliate \"review\" site for a high-pressure garden-hose NOZZLE attachment (clips on any hose, no motor/electricity). Sister build to trycoolizi, rebra",
+"created": "2026-07-17"
 },
 {
 "name": "pcsetup",
@@ -2328,7 +2482,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Dual-GPU AI Workstation (pcsetup)",
-"blurb": "What it is: A single self-contained HTML build-plan document (case / cooling / power / desk-clearance) for Dominic's in-house 24\u00d77 dual-GPU AI training workstation."
+"blurb": "What it is: A single self-contained HTML build-plan document (case / cooling / power / desk-clearance) for Dominic's in-house 24\u00d77 dual-GPU AI training workstation.",
+"created": "2026-07-17"
 },
 {
 "name": "ac-guide",
@@ -2343,7 +2498,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "AC Guide (2-ton inverter AC buying guide, India)",
-"blurb": "What it is: A single-page, consumer-facing buying guide for the best 2-ton inverter ACs (India, July 2026) \u2014 built as reference for Dominic's dual-GPU AI workstation, which runs "
+"blurb": "What it is: A single-page, consumer-facing buying guide for the best 2-ton inverter ACs (India, July 2026) \u2014 built as reference for Dominic's dual-GPU AI workstation, which runs ",
+"created": "2026-07-17"
 },
 {
 "name": "ozem-shop",
@@ -2358,7 +2514,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Ozem+ affiliate/SEO site (ozem-shop)",
-"blurb": "What it is: German-language affiliate/SEO site for Ozem+ (Oz+) weight-loss capsules, using the \"seri\u00f6s oder Betrug?\" legit-check angle, with DE + NL/IT/PL geo sub-pages, funnellin"
+"blurb": "What it is: German-language affiliate/SEO site for Ozem+ (Oz+) weight-loss capsules, using the \"seri\u00f6s oder Betrug?\" legit-check angle, with DE + NL/IT/PL geo sub-pages, funnellin",
+"created": "2026-07-17"
 },
 {
 "name": "gcalit-balance-sheet",
@@ -2373,7 +2530,8 @@
 "junk_kb": 64,
 "junk": "",
 "title": "gcalit-balance-sheet \u2014 GCALIT LLC \u00b7 Mercury Bank",
-"blurb": "TWO PAGES ON ONE SITE. Repo opheliaclarke/gcalit-balance-sheet, Pages from main /docs,"
+"blurb": "TWO PAGES ON ONE SITE. Repo opheliaclarke/gcalit-balance-sheet, Pages from main /docs,",
+"created": "2026-08-23"
 },
 {
 "name": "gads-image-sizer",
@@ -2388,7 +2546,8 @@
 "junk_kb": 52,
 "junk": "",
 "title": "gads-image-sizer \u2014 Google Ads image assets, in bulk",
-"blurb": "Status: BUILT + LIVE 2026-08-20. Nothing uploaded to any ad account, $0 spent."
+"blurb": "Status: BUILT + LIVE 2026-08-20. Nothing uploaded to any ad account, $0 spent.",
+"created": "2026-08-20"
 },
 {
 "name": "ragebait",
@@ -2403,7 +2562,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "DEAD END \u2014 A Rage Bait Maze (ragebait)",
-"blurb": "What it is: A first-person troll-maze browser game \u2014 vanilla JS <canvas> DDA raycaster, 10 hand-built levels where every tempting path is a mocking dead end; find the green EXIT."
+"blurb": "What it is: A first-person troll-maze browser game \u2014 vanilla JS <canvas> DDA raycaster, 10 hand-built levels where every tempting path is a mocking dead end; find the green EXIT.",
+"created": "2026-07-17"
 },
 {
 "name": "sites_download",
@@ -2418,7 +2578,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "sites_download",
-"blurb": "What it is: A storage folder of 3 downloaded static affiliate landing sites for weight-loss / nutra products, kept as ZIPs plus their extracted copies under Domains/. There is no g"
+"blurb": "What it is: A storage folder of 3 downloaded static affiliate landing sites for weight-loss / nutra products, kept as ZIPs plus their extracted copies under Domains/. There is no g",
+"created": "2026-07-17"
 },
 {
 "name": "devils-lie",
@@ -2433,7 +2594,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Devil's Lie \u2014 troll \u2192 rage-bait platformer",
-"blurb": "What it is: A Level-Devil-style trap platformer. Started as a \"troll\" platformer (50 levels / 10 worlds) and pivoted to a true RAGE-BAIT game: a level looks trivially easy but is m"
+"blurb": "What it is: A Level-Devil-style trap platformer. Started as a \"troll\" platformer (50 levels / 10 worlds) and pivoted to a true RAGE-BAIT game: a level looks trivially easy but is m",
+"created": "2026-07-17"
 },
 {
 "name": "coolizi-backlinks",
@@ -2448,7 +2610,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "coolizi-backlinks \u2014 team backlink task board (Coolizi \u2192 trycoolizi review pages)",
-"blurb": "What: a manual-posting task board for the team to build backlinks to the Coolizi review pages (trycoolizi.com/{en,de,fr,it,es,nl}/). Modeled on the Ozem+ board (melvingoodman7507.g"
+"blurb": "What: a manual-posting task board for the team to build backlinks to the Coolizi review pages (trycoolizi.com/{en,de,fr,it,es,nl}/). Modeled on the Ozem+ board (melvingoodman7507.g",
+"created": "2026-07-17"
 },
 {
 "name": "snow-safari",
@@ -2463,7 +2626,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Snow Safari \u2014 project state",
-"blurb": "What: Endless 3D snowboarding game (Three.js r170, zero art assets \u2014 everything procedural),"
+"blurb": "What: Endless 3D snowboarding game (Three.js r170, zero art assets \u2014 everything procedural),",
+"created": "2026-07-26"
 },
 {
 "name": "seed-audit",
@@ -2478,7 +2642,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "seed-audit \u2014 forensic sweep of a supplied 12-word recovery phrase",
-"blurb": "Status: DONE + LIVE. Dashboard at https://melvingoodman7507.github.io/seed-audit-0728/"
+"blurb": "Status: DONE + LIVE. Dashboard at https://melvingoodman7507.github.io/seed-audit-0728/",
+"created": "2026-07-28"
 },
 {
 "name": "theserenabecker",
@@ -2493,7 +2658,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Maison Serena Becker \u2014 patisserie/bakery website",
-"blurb": "What it is: A complete, launch-ready static patisserie & bakery website (brand \"Maison Serena Becker\") intended for the domain theserenabecker.com. Vanilla HTML/CSS/JS, no build st"
+"blurb": "What it is: A complete, launch-ready static patisserie & bakery website (brand \"Maison Serena Becker\") intended for the domain theserenabecker.com. Vanilla HTML/CSS/JS, no build st",
+"created": "2026-07-17"
 },
 {
 "name": "astro-global",
@@ -2508,7 +2674,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Astro-Global \u2014 astrology business diligence + roadmap",
-"blurb": "What this is: Deep-research pack + launch roadmap for Dominic's potential 50/50 astrology consulting business with a certified-astrologer friend (already consulting UK/FR clients; "
+"blurb": "What this is: Deep-research pack + launch roadmap for Dominic's potential 50/50 astrology consulting business with a certified-astrologer friend (already consulting UK/FR clients; ",
+"created": "2026-07-17"
 },
 {
 "name": "rh-lp-study",
@@ -2523,7 +2690,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-09-05"
 },
 {
 "name": "voiajtravels",
@@ -2538,7 +2706,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "voiajtravels \u2014 Google Ads landing site (static, cPanel/Apache)",
-"blurb": "Status (2026-07-22): BUILT + QA-passed, NOT deployed. Deliverable = voiajtravels-site.zip"
+"blurb": "Status (2026-07-22): BUILT + QA-passed, NOT deployed. Deliverable = voiajtravels-site.zip",
+"created": "2026-07-22"
 },
 {
 "name": "devils-trap",
@@ -2553,7 +2722,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Devil's Trap \u2014 first-person 3D rage-bait trap maze",
-"blurb": "What it is: A first-person 3D rage-bait game (Three.js): an open room of identical-looking floor with ONE hidden serpentine safe path through invisible pits/spikes/lava; beatable b"
+"blurb": "What it is: A first-person 3D rage-bait game (Three.js): an open room of identical-looking floor with ONE hidden serpentine safe path through invisible pits/spikes/lava; beatable b",
+"created": "2026-07-17"
 },
 {
 "name": "lyvora",
@@ -2568,7 +2738,8 @@
 "junk_kb": 20,
 "junk": "",
 "title": "Lyvora \u2014 multi-geo affiliate/SEO review site",
-"blurb": "What it is: Honest-legitimacy review site for Lyvora, a metabolism/blood-sugar"
+"blurb": "What it is: Honest-legitimacy review site for Lyvora, a metabolism/blood-sugar",
+"created": "2026-07-21"
 },
 {
 "name": "seedance-batch",
@@ -2583,7 +2754,8 @@
 "junk_kb": 124,
 "junk": "",
 "title": "seedance-batch \u2014 Seedance 2.0 / Seedream 5.0 batch generation tool",
-"blurb": "What it is: A standalone Python CLI that runs batch image + video generation on"
+"blurb": "What it is: A standalone Python CLI that runs batch image + video generation on",
+"created": "2026-07-27"
 },
 {
 "name": "metings",
@@ -2598,7 +2770,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Metings \u2014 metings.com",
-"blurb": "Status (2026-07-22): BUILT; ZIP delivered for Bob's cPanel (domain already \u2192 his server"
+"blurb": "Status (2026-07-22): BUILT; ZIP delivered for Bob's cPanel (domain already \u2192 his server",
+"created": "2026-07-22"
 },
 {
 "name": "myrtlebeachcondovacations",
@@ -2613,7 +2786,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Myrtle Beach Condo Vacations \u2014 myrtlebeachcondovacations.com",
-"blurb": "Status (2026-07-22): BUILT; Bob is self-hosting on his cPanel \u2014 ZIP delivered via GitHub release"
+"blurb": "Status (2026-07-22): BUILT; Bob is self-hosting on his cPanel \u2014 ZIP delivered via GitHub release",
+"created": "2026-07-22"
 },
 {
 "name": "gads-abuse-decode",
@@ -2628,7 +2802,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "gads-abuse-decode \u2014 how the phishing advertiser passes Google Ads review + self-scales",
-"blurb": "Follow-on from ledger-phish-0903. Bob's Google insider shared a screenshot (prnt.sc/7S0NLCJfmI1q) of a"
+"blurb": "Follow-on from ledger-phish-0903. Bob's Google insider shared a screenshot (prnt.sc/7S0NLCJfmI1q) of a",
+"created": "2026-09-04"
 },
 {
 "name": "tokenized-stock-hedge",
@@ -2643,7 +2818,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "tokenized-stock-hedge \u2014 decoding an investment manager's pitch to Bob",
-"blurb": "Status 2026-08-30: ANSWERED. Page built + published. Nothing bought, nothing invested, $0 spent."
+"blurb": "Status 2026-08-30: ANSWERED. Page built + published. Nothing bought, nothing invested, $0 spent.",
+"created": "2026-08-30"
 },
 {
 "name": "akemi-va",
@@ -2658,7 +2834,8 @@
 "junk_kb": 68,
 "junk": "",
 "title": "akemi-va \u2014 backlink task pages for the VA (**wave 1 is live**)",
-"blurb": "LIVE (noindex): https://oliveroliver10816.github.io/akemi-backlink-tasks/"
+"blurb": "LIVE (noindex): https://oliveroliver10816.github.io/akemi-backlink-tasks/",
+"created": "2026-08-28"
 },
 {
 "name": "coolizi",
@@ -2673,7 +2850,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Coolizi \u2014 EU affiliate case-study / strategy / backlink repo",
-"blurb": "What it is: This folder is the research + deliverables repo for the Coolizi Portable AC EU affiliate project \u2014 the confidential case study, the launch/decision dossier, the Googl"
+"blurb": "What it is: This folder is the research + deliverables repo for the Coolizi Portable AC EU affiliate project \u2014 the confidential case study, the launch/decision dossier, the Googl",
+"created": "2026-07-17"
 },
 {
 "name": "ai-persona",
@@ -2688,7 +2866,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "ai-persona \u2014 AI virtual-influencer venture (Facebook-CMT-first)",
-"blurb": "What this is: Bob's plan to duplicate the viral \"AI girl \u2192 subscriptions\" model (origin: @Bobersmart tweet, 21yo Brazilian \"AI construction-worker girl\" \u2192 TikTok \u2192 Fanvue, cl"
+"blurb": "What this is: Bob's plan to duplicate the viral \"AI girl \u2192 subscriptions\" model (origin: @Bobersmart tweet, 21yo Brazilian \"AI construction-worker girl\" \u2192 TikTok \u2192 Fanvue, cl",
+"created": "2026-07-18"
 },
 {
 "name": "tools",
@@ -2703,7 +2882,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "tools",
-"blurb": "What it is: A folder of standalone utility scripts (not one project). Each script is invoked directly; document per-script."
+"blurb": "What it is: A folder of standalone utility scripts (not one project). Each script is invoked directly; document per-script.",
+"created": "2026-07-17"
 },
 {
 "name": "glp-guide",
@@ -2718,7 +2898,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "glp-guide \u2014 GLP-1 category listicle (crawl-feeder for the money network)",
-"blurb": "What: A German category-overview page \u2014 \"Ozempic-Alternative als Tablette? GLP-1 Kapseln 2026 im"
+"blurb": "What: A German category-overview page \u2014 \"Ozempic-Alternative als Tablette? GLP-1 Kapseln 2026 im",
+"created": "2026-07-22"
 },
 {
 "name": "wellaray-index",
@@ -2733,7 +2914,8 @@
 "junk_kb": 28,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-28"
 },
 {
 "name": "gads-abuse-research",
@@ -2748,7 +2930,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Anatomy of an Approved Phishing Advertiser on Google Search",
-"blurb": "Threat-intelligence note for responsible disclosure to Google. Detection-focused; no evasion tooling."
+"blurb": "Threat-intelligence note for responsible disclosure to Google. Detection-focused; no evasion tooling.",
+"created": "2026-09-04"
 },
 {
 "name": "everest-media",
@@ -2763,7 +2946,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Everest Media \u2014 offer review & interception playbook",
-"blurb": "What it is: Diligence on 5 nutra CPA offers pitched to Bob by \"Everest Media\", plus research into"
+"blurb": "What it is: Diligence on 5 nutra CPA offers pitched to Bob by \"Everest Media\", plus research into",
+"created": "2026-07-21"
 },
 {
 "name": "refills-glp1-search",
@@ -2778,7 +2962,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Refills GLP-1 \u2014 Google Search Campaign (refills-glp1-search)",
-"blurb": "What it is: Launch-ready Google Search campaign spec + optimization log (a set of static HTML deliverable pages) for AFFILIATE promotion of Refills.com GLP-1 weight-loss (semagluti"
+"blurb": "What it is: Launch-ready Google Search campaign spec + optimization log (a set of static HTML deliverable pages) for AFFILIATE promotion of Refills.com GLP-1 weight-loss (semagluti",
+"created": "2026-07-17"
 },
 {
 "name": "offer-page-links",
@@ -2793,7 +2978,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "offer-page-links \u2014 every content page link for GLP3-B \u00b7 Wellaray \u00b7 Akemi",
-"blurb": "Status 2026-09-03: LIVE at https://oliveroliver10816.github.io/offer-page-links/"
+"blurb": "Status 2026-09-03: LIVE at https://oliveroliver10816.github.io/offer-page-links/",
+"created": "2026-09-03"
 },
 {
 "name": "server-inventory",
@@ -2808,7 +2994,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "server-inventory \u2014 the 93 GB keep/migrate/delete list",
-"blurb": "LIVE (noindex): https://oliveroliver10816.github.io/server-inventory/"
+"blurb": "LIVE (noindex): https://oliveroliver10816.github.io/server-inventory/",
+"created": "2026-09-07"
 },
 {
 "name": "wego6-va",
@@ -2823,7 +3010,8 @@
 "junk_kb": 112,
 "junk": "",
 "title": "wego6-va \u2014 backlink task pages for the VA (**wave 6 is live**)",
-"blurb": "LIVE: https://oliveroliver10816.github.io/wego6-backlink-tasks/"
+"blurb": "LIVE: https://oliveroliver10816.github.io/wego6-backlink-tasks/",
+"created": "2026-07-31"
 },
 {
 "name": "usd-inr-rates",
@@ -2838,7 +3026,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "usd-inr-rates \u2014 USD\u2192INR historical rate tables",
-"blurb": "Status: DELIVERED 2026-08-12. LIVE at"
+"blurb": "Status: DELIVERED 2026-08-12. LIVE at",
+"created": "2026-08-12"
 },
 {
 "name": "ozem-dash",
@@ -2853,7 +3042,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "ozem-dash \u2014 Ozem+ command center (live dashboard)",
-"blurb": "What: live dashboard for the Ozem+ affiliate site (ozem-shop). GSC (per-geo rankings) + Everflow (sales), refreshes on load / on demand / every 30 min. Built 2026-07-12; upgraded s"
+"blurb": "What: live dashboard for the Ozem+ affiliate site (ozem-shop). GSC (per-geo rankings) + Everflow (sales), refreshes on load / on demand / every 30 min. Built 2026-07-12; upgraded s",
+"created": "2026-07-17"
 },
 {
 "name": "swagacity-archive",
@@ -2868,7 +3058,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "SwagaCity \u2014 design-doc archive",
-"blurb": "What it is: Read-only source-of-truth design/spec archive for the SwagaCity game, downloaded from Dominic's Google Drive. The playable build lives in the sibling folder /root/works"
+"blurb": "What it is: Read-only source-of-truth design/spec archive for the SwagaCity game, downloaded from Dominic's Google Drive. The playable build lives in the sibling folder /root/works",
+"created": "2026-07-17"
 },
 {
 "name": "himachal-trip",
@@ -2883,7 +3074,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Himachal Family Trip (Jana Dome)",
-"blurb": "What it is: A personal, single-page itinerary webpage for Dominic's family road-trip (2 adults + 3-year-old son, self-drive) around the Himalayan Ridge Glamping Dome at Jana/Naggar"
+"blurb": "What it is: A personal, single-page itinerary webpage for Dominic's family road-trip (2 adults + 3-year-old son, self-drive) around the Himalayan Ridge Glamping Dome at Jana/Naggar",
+"created": "2026-07-17"
 },
 {
 "name": "rugiet",
@@ -2898,7 +3090,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Rugiet Ready \u2014 affiliate ad-asset repo",
-"blurb": "What it is: Ready-to-launch affiliate advertising assets (no website) for promoting Rugiet Ready\u2122, a premium doctor-prescribed telehealth ED product (formula RD-37\u2122 = sildenafi"
+"blurb": "What it is: Ready-to-launch affiliate advertising assets (no website) for promoting Rugiet Ready\u2122, a premium doctor-prescribed telehealth ED product (formula RD-37\u2122 = sildenafi",
+"created": "2026-07-17"
 },
 {
 "name": "ai-visibility-scan",
@@ -2913,7 +3106,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "ai-visibility-scan",
-"blurb": "VA task sheet that captures what ChatGPT and Gemini answer for 30 German buying"
+"blurb": "VA task sheet that captures what ChatGPT and Gemini answer for 30 German buying",
+"created": "2026-07-31"
 },
 {
 "name": "lendpeak",
@@ -2928,7 +3122,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "LendPeak \u2014 Working Capital (MCA) Google Ads Strategy/Spec (lendpeak)",
-"blurb": "What it is: The strategy + campaign-build spec (Markdown) for LendPeak's Merchant Cash Advance / Working Capital Google Ads, plus an animated \"how LendPeak earns\" explainer. This i"
+"blurb": "What it is: The strategy + campaign-build spec (Markdown) for LendPeak's Merchant Cash Advance / Working Capital Google Ads, plus an animated \"how LendPeak earns\" explainer. This i",
+"created": "2026-07-17"
 },
 {
 "name": "aurevia-lander",
@@ -2943,7 +3138,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "aurevia-lander \u2014 offline copy of the Aurevia Labs diabetes advertorial",
-"blurb": "Status: DONE 2026-09-04. NOTHING IS STORED ON THIS SERVER \u2014 it all lives in git."
+"blurb": "Status: DONE 2026-09-04. NOTHING IS STORED ON THIS SERVER \u2014 it all lives in git.",
+"created": "2026-09-04"
 },
 {
 "name": "ozem-backlinks",
@@ -2958,7 +3154,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "ozem-backlinks \u2014 backlink playbook for the team (Ozem+)",
-"blurb": "What: noindex webpage for Dominic's team: where to build Ozem+ backlinks, dofollow/nofollow status, IP/account rules, whether Google crawls them, per-geo anchor\u2192page strategy, an"
+"blurb": "What: noindex webpage for Dominic's team: where to build Ozem+ backlinks, dofollow/nofollow status, IP/account rules, whether Google crawls them, per-geo anchor\u2192page strategy, an",
+"created": "2026-07-17"
 },
 {
 "name": "_delivery-0723",
@@ -2973,7 +3170,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-07-23"
 },
 {
 "name": "article-trailer-verdict",
@@ -2988,7 +3186,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "article-trailer-verdict",
-"blurb": "Verdict on the \"Article Trailer Method\" X post Bob sent (2026-07-30) and the tool behind it."
+"blurb": "Verdict on the \"Article Trailer Method\" X post Bob sent (2026-07-30) and the tool behind it.",
+"created": "2026-07-30"
 },
 {
 "name": "geo-capture",
@@ -3003,7 +3202,8 @@
 "junk_kb": 36,
 "junk": "",
 "title": "geo-capture \u2014 Sweden (Osanix) + Poland (Ozem+), opened 2026-08-17",
-"blurb": "LIVE VA PAGE: https://oliveroliver10816.github.io/geo-capture-tasks/"
+"blurb": "LIVE VA PAGE: https://oliveroliver10816.github.io/geo-capture-tasks/",
+"created": "2026-08-17"
 },
 {
 "name": "thriveserver2",
@@ -3018,7 +3218,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "thriveserver2 \u2014 Thrive Server (thriveserver2.info)",
-"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,"
+"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,",
+"created": "2026-07-30"
 },
 {
 "name": "kimi-k3-uncensored",
@@ -3033,7 +3234,8 @@
 "junk_kb": 8,
 "junk": "",
 "title": "kimi-k3-uncensored \u2014 what the latest uncensored Kimi K3 actually is, and why the ones Bob ran babbled",
-"blurb": "Started + delivered 2026-08-14. Bob asked for \"the latest Kimi K3 uncensored version\" and to run it on"
+"blurb": "Started + delivered 2026-08-14. Bob asked for \"the latest Kimi K3 uncensored version\" and to run it on",
+"created": "2026-08-13"
 },
 {
 "name": "puppiessale",
@@ -3048,7 +3250,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "puppiessale \u2014 \"Puppy Ready\" (puppiessale.org)",
-"blurb": "Status (2026-07-22): BUILT, QA-passed, NOT deployed. Complete static multi-page site, ready to"
+"blurb": "Status (2026-07-22): BUILT, QA-passed, NOT deployed. Complete static multi-page site, ready to",
+"created": "2026-07-22"
 },
 {
 "name": "gen-ai-search",
@@ -3063,7 +3266,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "gen-ai-search \u2014 Google's generative-AI search guide, torn down + turned into a skill",
-"blurb": "Started 2026-08-01 from an X post Bob sent (x.com/ilkerulusoy/status/2082929033084391698,"
+"blurb": "Started 2026-08-01 from an X post Bob sent (x.com/ilkerulusoy/status/2082929033084391698,",
+"created": "2026-08-01"
 },
 {
 "name": "wego6-nl",
@@ -3078,7 +3282,8 @@
 "junk_kb": 28,
 "junk": "",
 "title": "wego6-nl \u2014 WEGO6 Netherlands, wave 7. Opened 2026-08-20.",
-"blurb": "LIVE VA PAGE: https://oliveroliver10816.github.io/wego6-nl-tasks/"
+"blurb": "LIVE VA PAGE: https://oliveroliver10816.github.io/wego6-nl-tasks/",
+"created": "2026-08-20"
 },
 {
 "name": "ozem-guide",
@@ -3093,7 +3298,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "ozem-guide \u2014 Google Sites backlink how-to (for Dominic)",
-"blurb": "What: a single noindex webpage that walks Dominic through building Google Sites dofollow backlinks by hand (Google Sites has no API + login is bot-walled \u2192 can't be automated). B"
+"blurb": "What: a single noindex webpage that walks Dominic through building Google Sites dofollow backlinks by hand (Google Sites has no API + login is bot-walled \u2192 can't be automated). B",
+"created": "2026-07-17"
 },
 {
 "name": "memory-inventory",
@@ -3108,7 +3314,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "memory-inventory \u2014 pick-what-to-keep tool for the memory store",
-"blurb": "Built 2026-08-13 because MEMORY.md kept tripping its size hook and Bob wanted to choose"
+"blurb": "Built 2026-08-13 because MEMORY.md kept tripping its size hook and Bob wanted to choose",
+"created": "2026-08-13"
 },
 {
 "name": "numerology-brand",
@@ -3123,7 +3330,8 @@
 "junk_kb": 12,
 "junk": "",
 "title": "numerology-brand \u2014 naming + domain shortlist for a global numerology site",
-"blurb": "Status (2026-07-27): Deliverable DONE and LIVE. Nothing bought, nothing built."
+"blurb": "Status (2026-07-27): Deliverable DONE and LIVE. Nothing bought, nothing built.",
+"created": "2026-07-27"
 },
 {
 "name": "is-this-ai",
@@ -3138,7 +3346,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "is-this-ai \u2014 verdict on the \"Is This AI?\" social-brand idea",
-"blurb": "Started + delivered 2026-08-05. Bob's idea: claim the handle \"Is This AI ?\" on every social"
+"blurb": "Started + delivered 2026-08-05. Bob's idea: claim the handle \"Is This AI ?\" on every social",
+"created": "2026-08-05"
 },
 {
 "name": "team-pages",
@@ -3153,7 +3362,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Team Pages (Refills GLP-1 \u2014 Google Search)",
-"blurb": "What it is: A small hub of internal, team-facing HTML dashboards for the Refills GLP-1 Google Search ad campaign (campaign build doc + optimization logs + creative research guide)."
+"blurb": "What it is: A small hub of internal, team-facing HTML dashboards for the Refills GLP-1 Google Search ad campaign (campaign build doc + optimization logs + creative research guide).",
+"created": "2026-07-17"
 },
 {
 "name": "video-engine",
@@ -3168,7 +3378,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "video-engine \u2014 standalone long-form AI video pipeline (feasibility + build plan)",
-"blurb": "Status (2026-07-30): RESEARCH DELIVERED. Nothing built, installed, bought or rendered."
+"blurb": "Status (2026-07-30): RESEARCH DELIVERED. Nothing built, installed, bought or rendered.",
+"created": "2026-07-30"
 },
 {
 "name": "viralbench-review",
@@ -3183,7 +3394,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "viralbench-review \u2014 ViralBench teardown + 30-day TikTok cost model",
-"blurb": "Status (2026-07-30): DELIVERED as a webpage. Nothing built, nothing bought, no accounts created, $0 spent."
+"blurb": "Status (2026-07-30): DELIVERED as a webpage. Nothing built, nothing bought, no accounts created, $0 spent.",
+"created": "2026-07-30"
 },
 {
 "name": "neurovitol-google-ads",
@@ -3198,7 +3410,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "NeuroVitol \u2014 Google Ads Search Playbook (neurovitol-google-ads)",
-"blurb": "What it is: The Google Ads media-buying playbook (styled HTML page) for the NeuroVitol brain/cognitive supplement affiliate offer, driving paid US Search traffic to the live SEO si"
+"blurb": "What it is: The Google Ads media-buying playbook (styled HTML page) for the NeuroVitol brain/cognitive supplement affiliate offer, driving paid US Search traffic to the live SEO si",
+"created": "2026-07-17"
 },
 {
 "name": "officebuild",
@@ -3213,7 +3426,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Dual-GPU Workstation Cooling Plan",
-"blurb": "What it is: A single static webpage \u2014 a housing/cooling/room-heat plan for Dominic's dual-GPU AI workstation (RTX PRO 6000 + RTX 5090). Personal project, not client/affiliate wor"
+"blurb": "What it is: A single static webpage \u2014 a housing/cooling/room-heat plan for Dominic's dual-GPU AI workstation (RTX PRO 6000 + RTX 5090). Personal project, not client/affiliate wor",
+"created": "2026-07-17"
 },
 {
 "name": "go2pro-lutinx",
@@ -3228,7 +3442,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "go2pro-lutinx \u2014 Growth & marketing plan",
-"blurb": "What: Marketing/growth plan for two linked companies Dominic wants to market together."
+"blurb": "What: Marketing/growth plan for two linked companies Dominic wants to market together.",
+"created": "2026-07-17"
 },
 {
 "name": "ozem-microsite",
@@ -3243,7 +3458,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "ozem-microsite \u2014 dofollow backlink microsite for ozem-plus.store",
-"blurb": "What: a small German \"Schlank-Kompass\" ratgeber blog whose ONLY purpose is dofollow backlinks to the Ozem+ money site (see main project ozem-shop). Built 2026-07-11."
+"blurb": "What: a small German \"Schlank-Kompass\" ratgeber blog whose ONLY purpose is dofollow backlinks to the Ozem+ money site (see main project ozem-shop). Built 2026-07-11.",
+"created": "2026-07-17"
 },
 {
 "name": "ozem-hub",
@@ -3258,7 +3474,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Abnehmcheck \u2014 \"Ozem+\" review-directory (ozem-hub)",
-"blurb": "What it is: A German-language independent-review directory site, brand \"Abnehmcheck\", whose live entry is a legit-check review of the Ozem+ (Oz+) weight-loss capsules (\"Fake oder e"
+"blurb": "What it is: A German-language independent-review directory site, brand \"Abnehmcheck\", whose live entry is a legit-check review of the Ozem+ (Oz+) weight-loss capsules (\"Fake oder e",
+"created": "2026-07-17"
 },
 {
 "name": "triplejlogistics",
@@ -3273,7 +3490,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Triple J Logistics \u2014 static landing site (Google Ads)",
-"blurb": "Status (2026-07-22): BUILT + QA-passed. Not deployed (no git, no CNAME per brief). Deliverable = triplejlogistics-site.zip in this folder, ready for cPanel/Apache upload to the doc"
+"blurb": "Status (2026-07-22): BUILT + QA-passed. Not deployed (no git, no CNAME per brief). Deliverable = triplejlogistics-site.zip in this folder, ready for cPanel/Apache upload to the doc",
+"created": "2026-07-22"
 },
 {
 "name": "oss-premium-alternatives",
@@ -3288,7 +3506,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "oss-premium-alternatives \u2014 open-source replacements for paid tools",
-"blurb": "What this is: a running series. Bob sends GitHub repos billed as free alternatives to"
+"blurb": "What this is: a running series. Bob sends GitHub repos billed as free alternatives to",
+"created": "2026-08-12"
 },
 {
 "name": "free-hosting-guide",
@@ -3303,7 +3522,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Free Hosting Guide",
-"blurb": "What it is: A single-page reference guide, \"Free & Trial Hosting \u2014 CDN, Storage & PHP, One List\" \u2014 one flat, filterable list of ~24 free/no-card and trial hosting options (stat"
+"blurb": "What it is: A single-page reference guide, \"Free & Trial Hosting \u2014 CDN, Storage & PHP, One List\" \u2014 one flat, filterable list of ~24 free/no-card and trial hosting options (stat",
+"created": "2026-07-17"
 },
 {
 "name": "arbforge-learnings",
@@ -3318,7 +3538,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "arbforge-learnings \u2014 the reference page kept after the shutdown",
-"blurb": "What this is: the entire arbforge project distilled onto one page, written 2026-08-02 when Bob shut"
+"blurb": "What this is: the entire arbforge project distilled onto one page, written 2026-08-02 when Bob shut",
+"created": "2026-08-02"
 },
 {
 "name": "archviz-service",
@@ -3333,7 +3554,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Moving renders for architects \u2014 feasibility (archviz-service)",
-"blurb": "What it is: A one-page verdict sheet on selling animated (\"moving\") 3D interior renders to"
+"blurb": "What it is: A one-page verdict sheet on selling animated (\"moving\") 3D interior renders to",
+"created": "2026-07-27"
 },
 {
 "name": "chatcut-eval",
@@ -3348,7 +3570,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "chatcut-eval \u2014 ChatCut adoption evaluation",
-"blurb": "Status (2026-07-30): Evaluation DELIVERED. Nothing installed for Bob, no account made, $0 spent."
+"blurb": "Status (2026-07-30): Evaluation DELIVERED. Nothing installed for Bob, no account made, $0 spent.",
+"created": "2026-07-30"
 },
 {
 "name": "lendpeak-tracking-public",
@@ -3363,7 +3586,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "LendPeak \u2014 Leo-facing Google Ad Tag Install Doc (lendpeak-tracking-public)",
-"blurb": "What it is: A single self-contained HTML page (index.html) that instructs Leo's team how to install the LendPeak Google Ads tag on the 5 landing pages \u2014 add gtag.js, capture gcli"
+"blurb": "What it is: A single self-contained HTML page (index.html) that instructs Leo's team how to install the LendPeak Google Ads tag on the 5 landing pages \u2014 add gtag.js, capture gcli",
+"created": "2026-07-17"
 },
 {
 "name": "oz-ms-pl",
@@ -3378,7 +3602,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-07-17"
 },
 {
 "name": "oz-ms-it",
@@ -3393,7 +3618,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-07-17"
 },
 {
 "name": "stellar-yonder",
@@ -3408,7 +3634,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Stellar Yonder \u2014 counterparty due diligence",
-"blurb": "What it is: A single-page static due-diligence report assessing whether Dominic should accept a prepay deal to run offers for \"Stellar Yonder Limited\" \u2014 a Hong Kong shell company"
+"blurb": "What it is: A single-page static due-diligence report assessing whether Dominic should accept a prepay deal to run offers for \"Stellar Yonder Limited\" \u2014 a Hong Kong shell company",
+"created": "2026-07-17"
 },
 {
 "name": "coolizi-postmortem",
@@ -3423,7 +3650,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Coolizi Post-Mortem (why sales went to zero)",
-"blurb": "What it is: A single-page post-mortem diagnosing why the trycoolizi.com affiliate funnel produced zero sales after switching to the AiraBreeze offer, plus the offer-mapping and tra"
+"blurb": "What it is: A single-page post-mortem diagnosing why the trycoolizi.com affiliate funnel produced zero sales after switching to the AiraBreeze offer, plus the offer-mapping and tra",
+"created": "2026-07-17"
 },
 {
 "name": "offer-strategy",
@@ -3438,7 +3666,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Offer-launch strategy (Stellar Yonder)",
-"blurb": "What it is: A single research/decision webpage (one index.html) that tells Dominic which of four Stellar Yonder affiliate offers to launch first, with a competitor map per offer an"
+"blurb": "What it is: A single research/decision webpage (one index.html) that tells Dominic which of four Stellar Yonder affiliate offers to launch first, with a competitor map per offer an",
+"created": "2026-07-17"
 },
 {
 "name": "oz-ms-nl",
@@ -3453,7 +3682,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-07-17"
 },
 {
 "name": "ext-traffic",
@@ -3468,7 +3698,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "ext-traffic \u2014 Chrome Extension Traffic research brief",
-"blurb": "What it is: A single-page, standalone research/deliverable brief titled \"Chrome Extension Traffic \u2014 US Desktop Opportunities for Recipe Offers\": where advertisers can actually bu"
+"blurb": "What it is: A single-page, standalone research/deliverable brief titled \"Chrome Extension Traffic \u2014 US Desktop Opportunities for Recipe Offers\": where advertisers can actually bu",
+"created": "2026-07-17"
 },
 {
 "name": "glp3b-research",
@@ -3483,7 +3714,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-27"
 },
 {
 "name": "ozem-ads",
@@ -3498,7 +3730,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "ozem-ads \u2014 Ozem+ Google Ads campaign (deliverable for Dominic)",
-"blurb": "What: a noindex webpage spec of a Google Ads Search campaign for Ozem+ (ozem-shop), built 2026-07-13 from the site's REAL Search Console queries (28d, DACH). For Dominic to load in"
+"blurb": "What: a noindex webpage spec of a Google Ads Search campaign for Ozem+ (ozem-shop), built 2026-07-13 from the site's REAL Search Console queries (28d, DACH). For Dominic to load in",
+"created": "2026-07-17"
 },
 {
 "name": "clearpathenterprises",
@@ -3513,7 +3746,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "clearpathenterprises \u2014 ClearPath Enterprises (clearpathenterprises.biz)",
-"blurb": "Status (2026-07-23): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo, no"
+"blurb": "Status (2026-07-23): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo, no",
+"created": "2026-07-23"
 },
 {
 "name": "glp1-newsbreak",
@@ -3528,7 +3762,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "GLP-1 NewsBreak Headlines",
-"blurb": "What it is: A Markdown file (headlines.md) of NewsBreak native-ad titles for a GLP-1 weight-loss affiliate offer \u2014 8 \"$5/day\" price clickbait versions (primary set) + 3 non-price"
+"blurb": "What it is: A Markdown file (headlines.md) of NewsBreak native-ad titles for a GLP-1 weight-loss affiliate offer \u2014 8 \"$5/day\" price clickbait versions (primary set) + 3 non-price",
+"created": "2026-07-17"
 },
 {
 "name": "lendpeak-deal-lifecycle",
@@ -3543,7 +3778,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "LendPeak \u2014 Working Capital Deal Lifecycle (Confidential Briefing)",
-"blurb": "What it is: An animated, self-contained single-page confidential briefing that walks through one merchant cash advance (MCA) end to end \u2014 customer acquisition \u2192 settled terms \ufffd"
+"blurb": "What it is: An animated, self-contained single-page confidential briefing that walks through one merchant cash advance (MCA) end to end \u2014 customer acquisition \u2192 settled terms \ufffd",
+"created": "2026-07-17"
 },
 {
 "name": "click-audit",
@@ -3558,7 +3794,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-16"
 },
 {
 "name": "what-movie",
@@ -3573,7 +3810,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "what-movie \u2014 what-movie.com",
-"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo, no"
+"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo, no",
+"created": "2026-07-30"
 },
 {
 "name": "extmarket",
@@ -3588,7 +3826,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Extension Market Study",
-"blurb": "What it is: A single-page, dark-themed HTML study guide titled \"The Browser-Extension Acquisition Market\" \u2014 explains how browser extensions are bought, sold and monetized (market"
+"blurb": "What it is: A single-page, dark-themed HTML study guide titled \"The Browser-Extension Acquisition Market\" \u2014 explains how browser extensions are bought, sold and monetized (market",
+"created": "2026-07-17"
 },
 {
 "name": "gonzo-coupons-site",
@@ -3603,7 +3842,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Gonzo Proxy Renewal Coupon Brief",
-"blurb": "What it is: A single-page decision brief (\"Gonzo Proxy \u2014 250GB Renewal Coupon Brief\") that ranks coupon codes by whether they actually help when renewing/topping-up a Gonzo Proxy"
+"blurb": "What it is: A single-page decision brief (\"Gonzo Proxy \u2014 250GB Renewal Coupon Brief\") that ranks coupon codes by whether they actually help when renewing/topping-up a Gonzo Proxy",
+"created": "2026-07-17"
 },
 {
 "name": "zenithglobalfx",
@@ -3618,7 +3858,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-07-22"
 },
 {
 "name": "lifequalityproject",
@@ -3633,7 +3874,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "lifequalityproject \u2014 Google Ads landing site (cPanel/Apache)",
-"blurb": "Status (2026-07-22): BUILT + QA-passed, NOT deployed. No git repo, no CNAME (per task spec)."
+"blurb": "Status (2026-07-22): BUILT + QA-passed, NOT deployed. No git repo, no CNAME (per task spec).",
+"created": "2026-07-22"
 },
 {
 "name": "sites-funnel-playbook",
@@ -3648,7 +3890,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-11"
 },
 {
 "name": "load-mechanics-lab",
@@ -3663,7 +3906,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "load-mechanics-lab",
-"blurb": "Teaching lab (for Boba) on why one page feels instant and another feels slow \u2014 the"
+"blurb": "Teaching lab (for Boba) on why one page feels instant and another feels slow \u2014 the",
+"created": "2026-08-05"
 },
 {
 "name": "jetterix-playbook",
@@ -3678,7 +3922,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Jetterix \u2014 Playbook (confidential)",
-"blurb": "What it is: A single confidential one-page webpage that documents the go-to-market/SEO/backlink playbook for the Jetterix affiliate site (tryjetterix.com) \u2014 geo push order, what'"
+"blurb": "What it is: A single confidential one-page webpage that documents the go-to-market/SEO/backlink playbook for the Jetterix affiliate site (tryjetterix.com) \u2014 geo push order, what'",
+"created": "2026-07-17"
 },
 {
 "name": "ultimateoilandgaz",
@@ -3693,7 +3938,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "ultimateoilandgaz \u2014 Google Ads landing site (cPanel/Apache)",
-"blurb": "Status (2026-07-22): BUILT + QA-passed. Not deployed, no git, no CNAME (per spec)."
+"blurb": "Status (2026-07-22): BUILT + QA-passed. Not deployed, no git, no CNAME (per spec).",
+"created": "2026-07-22"
 },
 {
 "name": "chadenhite",
@@ -3708,7 +3954,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "chadenhite \u2014 Chad Enhite personal-brand coaching site (chadenhite.com)",
-"blurb": "Status (2026-07-23): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo, no"
+"blurb": "Status (2026-07-23): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo, no",
+"created": "2026-07-23"
 },
 {
 "name": "progarma",
@@ -3723,7 +3970,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "progarma \u2014 Google Ads landing site (software studio)",
-"blurb": "Status (2026-07-22): BUILT + QA-passed, packaged as progarma-site.zip for cPanel/Apache. NOT deployed; no git, no CNAME (per brief)."
+"blurb": "Status (2026-07-22): BUILT + QA-passed, packaged as progarma-site.zip for cPanel/Apache. NOT deployed; no git, no CNAME (per brief).",
+"created": "2026-07-22"
 },
 {
 "name": "faose",
@@ -3738,7 +3986,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "faose \u2014 FAOSE (faose.org)",
-"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,"
+"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,",
+"created": "2026-07-30"
 },
 {
 "name": "tmp",
@@ -3753,7 +4002,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-05"
 },
 {
 "name": "seniorsmart",
@@ -3768,7 +4018,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "seniorsmart \u2014 SeniorSmart (seniorsmart.info)",
-"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,"
+"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,",
+"created": "2026-07-30"
 },
 {
 "name": "smartpharmacare",
@@ -3783,7 +4034,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "smartpharmacare \u2014 SmartPharmaCare (smartpharmacare.com)",
-"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,"
+"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,",
+"created": "2026-07-30"
 },
 {
 "name": "ppema",
@@ -3798,7 +4050,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "ppema \u2014 PPEMA (ppema.org)",
-"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,"
+"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,",
+"created": "2026-07-30"
 },
 {
 "name": "seabaughsoutdoorservices",
@@ -3813,7 +4066,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "seabaughsoutdoorservices \u2014 Seabaugh's Outdoor (seabaughsoutdoorservices.com)",
-"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,"
+"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,",
+"created": "2026-07-30"
 },
 {
 "name": "mcapp",
@@ -3828,7 +4082,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "mcapp \u2014 MC App (mcapp.info)",
-"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,"
+"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,",
+"created": "2026-07-30"
 },
 {
 "name": "nbzl",
@@ -3843,7 +4098,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "nbzl \u2014 NBZL (nbzl.org)",
-"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,"
+"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,",
+"created": "2026-07-30"
 },
 {
 "name": "wowmash",
@@ -3858,7 +4114,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "wowmash \u2014 WowMash (wowmash.com)",
-"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,"
+"blurb": "Status (2026-07-30): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed. No git repo,",
+"created": "2026-07-30"
 },
 {
 "name": "devils-due",
@@ -3873,7 +4130,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Devil's Due \u2014 rage-bait platformer (sequel to Devil's Lie)",
-"blurb": "What it is: A rage-bait 2D scrolling platformer where every level looks like a trivial walk to a door but is mined with INVISIBLE, untelegraphed traps; you die, memorize, and retry"
+"blurb": "What it is: A rage-bait 2D scrolling platformer where every level looks like a trivial walk to a door but is mined with INVISIBLE, untelegraphed traps; you die, memorize, and retry",
+"created": "2026-07-17"
 },
 {
 "name": "fourcreekshoa",
@@ -3888,7 +4146,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "fourcreekshoa \u2014 Four Creeks Homeowners Association (Google Ads landing site)",
-"blurb": "Status: BUILT + QA-passed 2026-07-22. NOT deployed, NOT in git (per brief: zip \u2192 cPanel/Apache)."
+"blurb": "Status: BUILT + QA-passed 2026-07-22. NOT deployed, NOT in git (per brief: zip \u2192 cPanel/Apache).",
+"created": "2026-07-22"
 },
 {
 "name": "tareksharara",
@@ -3903,7 +4162,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "tareksharara \u2014 personal-brand landing site (Tarek Sharara)",
-"blurb": "Status (2026-07-22): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed, no git, no CNAME (per spec)."
+"blurb": "Status (2026-07-22): BUILT + QA-passed, zipped for cPanel/Apache. NOT deployed, no git, no CNAME (per spec).",
+"created": "2026-07-22"
 },
 {
 "name": "wego6-backlinks",
@@ -3918,7 +4178,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-07-29"
 },
 {
 "name": "fleet-system",
@@ -3933,7 +4194,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "fleet-system \u2014 the catalogue + build engine for the German domain fleet",
-"blurb": "Status: FOUNDATION BUILT 2026-07-30. Not deployed. No domains bought yet."
+"blurb": "Status: FOUNDATION BUILT 2026-07-30. Not deployed. No domains bought yet.",
+"created": "2026-07-30"
 },
 {
 "name": "brainoffers",
@@ -3948,7 +4210,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Brain Offers (2026 US brain/nootropic affiliate research)",
-"blurb": "What it is: A deep-research brief on 2026 US brain-health / cognitive / nootropic affiliate offers with high Google buyer intent, plus the affiliate program behind each. It is the "
+"blurb": "What it is: A deep-research brief on 2026 US brain-health / cognitive / nootropic affiliate offers with high Google buyer intent, plus the affiliate program behind each. It is the ",
+"created": "2026-07-17"
 },
 {
 "name": "credential-audit",
@@ -3963,7 +4226,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "credential-audit \u2014 access & credential sweep (2 Aug 2026)",
-"blurb": "\ud83d\udd12 PRIVATE. NEVER publish, push, or share this folder. No git repo here, deliberately."
+"blurb": "\ud83d\udd12 PRIVATE. NEVER publish, push, or share this folder. No git repo here, deliberately.",
+"created": "2026-08-02"
 },
 {
 "name": "wego6-rank-plan",
@@ -3978,7 +4242,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-03"
 },
 {
 "name": "linkspotter",
@@ -3993,7 +4258,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-07-21"
 },
 {
 "name": "neurobella-lander",
@@ -4008,7 +4274,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "neurobella-lander \u2014 offline, config-driven copy of the Neurobella advertorial",
-"blurb": "Status: DONE 2026-09-07. NOTHING IS STORED ON THIS SERVER \u2014 it all lives in git."
+"blurb": "Status: DONE 2026-09-07. NOTHING IS STORED ON THIS SERVER \u2014 it all lives in git.",
+"created": "2026-09-07"
 },
 {
 "name": "wego6-index-queue",
@@ -4023,7 +4290,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "wego6-index-queue \u2014 shared GSC indexing tracker",
-"blurb": "LIVE: https://oliveroliver10816.github.io/wego6-index-queue/ (repo oliveroliver10816/wego6-index-queue)."
+"blurb": "LIVE: https://oliveroliver10816.github.io/wego6-index-queue/ (repo oliveroliver10816/wego6-index-queue).",
+"created": "2026-07-31"
 },
 {
 "name": "affiliate-playbook",
@@ -4038,7 +4306,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-07-28"
 },
 {
 "name": "polymarket-perps-verdict",
@@ -4053,7 +4322,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-07-23"
 },
 {
 "name": "arbforge-rpc-setup",
@@ -4068,7 +4338,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-07-23"
 },
 {
 "name": "telegram-bridge",
@@ -4085,7 +4356,8 @@
 "title": "Telegram Bridge (Claude Code \u2194 Telegram)",
 "blurb": "What it is: A small pure-Python (stdlib only) bridge that lets Dominic drive the local Claude Code CLI from Telegram \u2014 each Telegram \"thread\" keeps its own resumable Claude sessi",
 "livestate": "off",
-"live": "Unit exists but inactive+disabled."
+"live": "Unit exists but inactive+disabled.",
+"created": "2026-07-17"
 },
 {
 "name": "wego6-backlinks2",
@@ -4100,7 +4372,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-07-30"
 },
 {
 "name": "wego6-gsc",
@@ -4115,7 +4388,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-07-29"
 },
 {
 "name": "lendpeak-ghl",
@@ -4130,7 +4404,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "LendPeak \u2014 GoHighLevel credentials (local-only)",
-"blurb": "What it is: NOT a project build \u2014 this folder is a local-only credential store for LendPeak's GoHighLevel (GHL) CRM API. It holds one creds.json with a GoHighLevel Private Integr"
+"blurb": "What it is: NOT a project build \u2014 this folder is a local-only credential store for LendPeak's GoHighLevel (GHL) CRM API. It holds one creds.json with a GoHighLevel Private Integr",
+"created": "2026-07-17"
 },
 {
 "name": "_audit",
@@ -4145,7 +4420,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-05"
 },
 {
 "name": "wego6-crawl",
@@ -4160,7 +4436,8 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-07-30"
 },
 {
 "name": "_tmp_favtest",
@@ -4175,6 +4452,7 @@
 "junk_kb": 0,
 "junk": "",
 "title": "",
-"blurb": ""
+"blurb": "",
+"created": "2026-08-31"
 }
 ]
