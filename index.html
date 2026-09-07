@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>Server Storage Inventory — 93 GB of 97 GB</title>
+<title>Server Storage Inventory — 86 GB of 97 GB</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💾</text></svg>">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -29,6 +29,9 @@ h1{font-size:22px;font-weight:650;letter-spacing:-.02em}
 .stat .n{font:650 21px var(--mono);letter-spacing:-.02em}
 .stat .l{font-size:11px;color:var(--dim2);text-transform:uppercase;letter-spacing:.07em;margin-top:2px}
 .stat.k .n{color:var(--keep)}.stat.m .n{color:var(--mig)}.stat.d .n{color:var(--del)}.stat.u .n{color:var(--dim)}
+.done{background:#0f1d13;border:1px solid #1d4028;border-left:3px solid var(--keep);border-radius:6px;padding:13px 16px;margin:18px 0 0;font-size:13px;line-height:1.6;color:var(--dim)}
+.done b{color:var(--ink)}
+.done code{font:12px var(--mono);background:#0d1117;padding:1px 5px;border-radius:3px;color:var(--acc)}
 .warn{background:#1c1a12;border:1px solid #4a3d18;border-left:3px solid var(--mig);border-radius:6px;padding:13px 16px;margin:18px 0 0;font-size:13px;line-height:1.6}
 .warn b{color:var(--ink)}
 .warn ol{margin:7px 0 0 18px;color:var(--dim)}
@@ -78,7 +81,10 @@ td.bk{width:170px;font-size:12px}
 td.no{font-size:12px;color:var(--dim);max-width:420px}
 .tag{display:inline-block;padding:1.5px 6px;border-radius:3px;font:600 10.5px var(--mono);letter-spacing:.02em;white-space:nowrap}
 .tag.ok{background:#3fb95022;color:var(--keep)}
-.tag.warn{background:#d2992222;color:var(--mig)}
+.tag.done{background:#0f1d13;border:1px solid #1d4028;border-left:3px solid var(--keep);border-radius:6px;padding:13px 16px;margin:18px 0 0;font-size:13px;line-height:1.6;color:var(--dim)}
+.done b{color:var(--ink)}
+.done code{font:12px var(--mono);background:#0d1117;padding:1px 5px;border-radius:3px;color:var(--acc)}
+.warn{background:#d2992222;color:var(--mig)}
 .tag.bad{background:#f8514922;color:var(--del)}
 .tag.n{background:#8b949e22;color:var(--dim)}
 a{color:var(--acc);text-decoration:none}a:hover{text-decoration:underline}
@@ -107,7 +113,7 @@ footer{color:var(--dim2);font-size:12px;padding:30px 0 44px;border-top:1px solid
 
 <header><div class="wrap">
   <h1>Server Storage Inventory</h1>
-  <div class="sub">Everything on the box, measured 7 Sep 2026 · <b style="color:var(--del)">93 GB used of 97 GB — 4.8 GB free (96%)</b> · mark every row Keep / Migrate / Delete, then Export</div>
+  <div class="sub">Everything on the box, re-measured 7 Sep 2026 after the first clear-out · <b style="color:var(--keep)">86 GB used of 97 GB — 10.9 GB free (89%)</b> · mark every row Keep / Migrate / Delete, then Export</div>
   <div class="gauge" id="gauge"></div>
   <div class="glegend" id="glegend"></div>
 </div></header>
@@ -129,10 +135,16 @@ footer{color:var(--dim2);font-size:12px;padding:30px 0 44px;border-top:1px solid
 </div></div>
 
 <div class="wrap">
+  <div class="done">
+    <b>✓ Cleared 7 Sep 2026 — 6.04 GB freed.</b> Removed on your instruction after you verified them:
+    <code>cloudbit-goldmine</code> (3.01 GB) · <code>moneyprinterturbo</code> (2.42 GB) · <code>avatar-voice-verdict</code> (865 MB).
+    Disk went <b>93 GB → 86 GB</b>, free space <b>4.8 GB → 10.9 GB</b>, <b>96% → 89%</b>.
+    Their notes, the Pexels key and newsradar's code were kept in <code>/root/backups/pre-delete-20260907/</code> (1.1 MB).
+  </div>
   <div class="warn">
     <b>Two things to know before you choose</b>
     <ol>
-      <li><b>Deleting projects barely helps.</b> All 280 projects together are <b>24 GB of the 93 GB</b>. The other <b>58 GB is cache and scratch that rebuilds itself</b> — clearing that costs no work at all and is why the disk keeps refilling. Sort the second table by size and start there.</li>
+      <li><b>Deleting projects barely helps.</b> All 278 remaining projects together are <b>19 GB of the 86 GB</b>. The other <b>67 GB is cache and scratch that rebuilds itself</b> — clearing that costs no work at all and is why the disk keeps refilling. Sort the second table by size and start there.</li>
       <li><b>A row never moves when you click it.</b> Deciding a row marks it in place and leaves it where it is — earlier the list jumped up under the cursor while the <i>Undecided</i> filter was on, so consecutive clicks hit the wrong projects. <b>Undo</b> steps back through your decisions one at a time, and anything worked on in the last 30 days shows its age in <span style="color:var(--del);font-weight:700">red</span> and is counted separately above.</li>
       <li><b>Two folders are running right now</b> and are marked <span class="tag bad">IN USE NOW</span>: <code>altvaulz-x</code> (cron, ran today) and <code>theeveningbrief</code> (257 live PHP processes). Separately, those 257 processes have been piling up since 21 Aug and hold <b>3.3 GB of RAM on a 14 GB box with no swap</b> — that is a leak worth a look, but I have not touched it.</li>
     </ol>
@@ -174,15 +186,15 @@ function save(){ try{ localStorage.setItem('inv-choices',JSON.stringify(choice))
 
 // ---------- disk gauge ----------
 const SEG=[
- ['Workspace projects',25.0,'#58a6ff'],
+ ['Workspace projects',19.0,'#58a6ff'],
  ['Claude session scratch (/tmp)',14.0,'#bc8cff'],
  ['VS Code server',9.4,'#f0883e'],
  ['Chat history',7.2,'#d29922'],
- ['Build caches',6.4,'#3fb950'],
+ ['Build caches',6.7,'#3fb950'],
  ['npm cache',5.8,'#39c5cf'],
- ['Other /tmp',10.0,'#a371f7'],
- ['Everything else',10.4,'#6e7d8d'],
- ['Free',4.8,'#21262d'],
+ ['Other /tmp',9.4,'#a371f7'],
+ ['Everything else',14.6,'#6e7d8d'],
+ ['Free',10.9,'#21262d'],
 ];
 { const g=document.getElementById('gauge'), l=document.getElementById('glegend'), tot=97;
   SEG.forEach(([n,v,c])=>{ const d=document.createElement('div'); d.className='gseg';
@@ -275,7 +287,7 @@ function stats(){
   const all=[...P.map(p=>({id:p.name,kb:p.kb})),...S.map(s=>({id:s.path,kb:s.kb}))];
   let n={keep:0,migrate:0,delete:0,undecided:0}, kb={keep:0,migrate:0,delete:0};
   all.forEach(a=>{const c=choice[a.id]; if(c){n[c]++;kb[c]+=a.kb;}else n.undecided++;});
-  const freed=kb.delete, after=93*GB/KB - freed;
+  const freed=kb.delete, after=86*GB/KB - freed;
   const risky=P.filter(p=>choice[p.name]==='delete'&&daysAgo(p.mod)<=30).length;
   document.getElementById('stats').innerHTML=`
    <div class="stat k"><div class="n">${n.keep}</div><div class="l">Keep · ${fmt(kb.keep)}</div></div>
@@ -335,7 +347,7 @@ document.getElementById('allkeep').onclick=()=>{
 function report(){
   const L=[];
   L.push('SERVER STORAGE DECISIONS — '+new Date().toISOString().slice(0,10));
-  L.push('Disk at time of inventory: 93 GB used of 97 GB (4.8 GB free)');
+  L.push('Disk at time of inventory: 86 GB used of 97 GB (10.9 GB free)');
   const grp={delete:[],migrate:[],keep:[]};
   P.forEach(p=>{const c=choice[p.name]; if(c)grp[c].push(['/root/workspace/'+p.name,p.kb,backup(p).t]);});
   S.forEach(s=>{const c=choice[s.path]; if(c)grp[c].push([s.path,s.kb,s.risk.toUpperCase()]);});
