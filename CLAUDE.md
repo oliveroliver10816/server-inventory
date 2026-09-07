@@ -98,3 +98,32 @@ disk unchanged at 93 GB / 96%. Only additive changes were made:
 whose sed mis-parsed the URL — **`oliveroliver10816` and `melvingoodman7507`. Rotate both.**
 A remote can be either `https://TOKEN@github.com/…` or `https://user:TOKEN@github.com/…`;
 match `^https://([^@/]+)@github\.com/` and never let git echo a URL it failed to resolve.
+
+## ✅ 2026-09-07 — FIRST CLEAR-OUT EXECUTED. 6.04 GB freed.
+
+Bob re-selected on the fixed page and confirmed: *"REMOVE THEM RIGHT AWAY / i ALREADY CHECKED
+AND VERIFIED / i DON'T NEED THESE 3"*.
+
+| removed | size | backup state |
+|---|---|---|
+| `cloudbit-goldmine` | 3.01 GB | NO BACKUP (closed project, services already inactive+disabled) |
+| `moneyprinterturbo` | 2.42 GB | NO BACKUP |
+| `avatar-voice-verdict` | 865 MB | NO BACKUP |
+
+**Disk 93 GB → 86 GB · free 4.8 GB → 10.9 GB · 96% → 89%.** Measured with `df` before and after;
+the freed figure is the delta in *available* blocks, not the `du` sum.
+
+**Pre-flight run before the `rm`:** confirmed 0 processes had a cwd inside any of the three, and
+confirmed the backup already covered them. Kept in `/root/backups/pre-delete-20260907/` (1.1 MB):
+every `CLAUDE.md`/`README` from the original 72-item list, `openmontage/.env` (**live Pexels
+key**), `blastup` server `.env`, and **`newsradar` code** (236 KB, media excluded).
+
+**Page re-measured from scratch afterwards** — 278 projects / 17.9 GB, new gauge, new header
+(86 GB of 97), export text updated, and a green banner recording what was cleared. Verified live:
+278 rows, none of the three present, click-trap fix still holding (4 clicks at one position = 1
+row), 0 console errors.
+
+⚠ Still true and still the point: **projects are 19 GB of the 86 GB.** The remaining 67 GB is
+cache and scratch — `/tmp/claude-0` 14 GB, `.vscode-server` 9.4 GB, chat history 7.2 GB,
+`.cache` 6.7 GB, `.npm` 5.8 GB, other `/tmp` 9.4 GB. **That is where the next ~40 GB is, at zero
+cost to any project.** Nothing there has been touched.
