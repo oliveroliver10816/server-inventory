@@ -127,3 +127,41 @@ row), 0 console errors.
 cache and scratch — `/tmp/claude-0` 14 GB, `.vscode-server` 9.4 GB, chat history 7.2 GB,
 `.cache` 6.7 GB, `.npm` 5.8 GB, other `/tmp` 9.4 GB. **That is where the next ~40 GB is, at zero
 cost to any project.** Nothing there has been touched.
+
+## ⚠ 2026-09-07 — I OVERSTATED THE CACHE FIGURE. Real number is ~22 GB, not 43 GB.
+
+Bob pushed back (*"I don't have a good feeling about this"*) and he was right. The 43 GB claim
+double-counted things that are **in use**:
+- **Session scratchpads: only 3.8 GB is finished work.** 69 session dirs exist; **5 are LIVE**
+  (checked via `/proc`) and hold **10.03 GB** — including the single 8.8 GB one. Deleting by age
+  would kill running sessions. This is memory [[protect-live-scratchpads-when-clearing-tmp]]
+  exactly, and I nearly repeated it in a size estimate.
+- **VS Code: only 5.1 GB is stale.** There are **10 server copies; 1 is running**
+  (`Stable-560a9db…`, 380 MB) plus its extensions/data. The other 9 are versions already upgraded
+  past. **Nothing re-downloads** — the running copy is never touched.
+- `/tmp` named leftovers with **0 processes using them** total ~2.75 GB, not 9.4 GB.
+
+**Honest tiers (measured 2026-09-07):**
+| tier | size | items |
+|---|---|---|
+| Zero risk, re-downloads on demand | ~15.8 GB | npm 5.8 · 9 dead VS Code copies 5.1 · pip+uv 2.0 · HuggingFace 2.1 · orphaned playwright chromium-1148 0.8 |
+| Safe after the live-check | ~6.6 GB | 64 finished scratchpads 3.8 · named /tmp leftovers 2.75 |
+| **KEEP** | — | 5 live scratchpads 10 GB · running VS Code + extensions · chat history 7.2 GB · playwright 1228 + 1234 |
+
+⇒ realistic free space after a clean-out: **10.9 GB → ~33 GB**, not 45–50.
+
+## ✅ Filters shipped 2026-09-07 (his request)
+Multi-select (checkbox per row, select-all-shown, shift-click range) + a **bulk bar** applying
+Keep/Migrate/Delete/Clear to everything selected at once · **size filter** (<1/2/5/10/50 MB,
+≥100 MB/500 MB/1 GB) · **date ranges** on Created and Last worked on · **Created column**
+(folder birth time, real on 278/278, sortable) · a live line saying how much deleting the whole
+current filter would free.
+⭐ It immediately showed the small-project trap: **135 projects under 5 MB free only 123 MB**,
+while **22 projects ≥100 MB hold 15.5 GB**.
+🛑 **"Last opened" was NOT shipped** — atime is contaminated (195 of 278 read as today, because
+reading a file updates it and the inventory scan touched everything). A column that cannot be
+trusted is worse than no column.
+⚠ Bug fixed en route: a leftover `Keep all visible` handler pointed at a button the toolbar
+rewrite had removed; it threw on null at load and **killed the whole script before the data
+fetch**, so the page rendered 0 rows with **no console error** (function declarations hoist, so
+everything still "existed"). Trap it with a `window.onerror` probe, not by reading the source.
