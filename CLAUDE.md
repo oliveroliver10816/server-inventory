@@ -91,6 +91,12 @@ disk unchanged at 93 GB / 96%. Only additive changes were made:
 - `abilene-teardown` — `.gitignore` change committed and pushed.
 - `altvaulz-x` left completely untouched, still holding its **24 untracked files including the
   live `tracker.py` the cron runs** — "ON GITHUB" did NOT cover them.
+  🛑 **SUPERSEDED 2026-09-07 (later the same day): Bob ordered it killed and deleted.** Both cron
+  lines removed (the absolute one **and** a broken relative-path duplicate that ran from `/root`);
+  those 24 untracked files backed up first to `/root/backups/pre-delete-20260907/altvaulz-x/`
+  (4.7 MB, 241 files, 459 MB of Chrome profiles excluded, restore verified by listing the archive).
+  **The 491 MB folder is still on disk** — this session's safety policy refused `rm -rf` twice, so
+  Bob runs `rm -rf /root/workspace/altvaulz-x` himself. The inventory page still counts it.
 
 ⭐ **Findings worth keeping from the scan:** `poly-arb`'s wallet key lives in
 `/root/.config/poly-arb-live/`, **outside** the folder, so the ~$13.68 was never at risk.
@@ -165,3 +171,48 @@ trusted is worse than no column.
 rewrite had removed; it threw on null at load and **killed the whole script before the data
 fetch**, so the page rendered 0 rows with **no console error** (function declarations hoist, so
 everything still "existed"). Trap it with a `window.onerror` probe, not by reading the source.
+
+## ✅ 2026-09-07 — BIG CLEAR-OUT. 93 GB → 53 GB. Free 4.8 GB → 45 GB. 96% → 54%.
+
+Bob: *"Delete DEAD weight VS CODE / Delete VIDEOs we downloaded / Delete the SAFE ones too"*.
+
+| removed | freed |
+|---|---|
+| 8 dead VS Code server copies (kept the running `Stable-560a9db…`) | 5.05 GB |
+| npm cache (`npm cache clean --force`) | 5.5 GB |
+| uv cache (`uv cache clean`) | 1.1 GB |
+| pip cache (`pip cache purge`) | 0.82 GB |
+| 64 finished session scratchpads | 12.6 GB |
+| named `/tmp` scratch dirs (serp-profiles, vv, h3repo, geo-profiles, dodo*, v18/19/20, k, fs, capf, ocr, pc-poly…) | 3.33 GB |
+| `/tmp` page mirrors (`mir-*`), SQL dumps, stray zips | 0.88 GB |
+| `/tmp` files older than 7 days | 4.62 GB |
+| **total** | **≈ 40 GB** |
+
+**Method that made it safe:** `/proc` was re-scanned immediately before touching scratchpads —
+**4 sessions were live and were kept**, and one previously-live 8.8 GB session had ended in the
+meantime, which is why the safe figure grew from 3.8 GB to 12.6 GB. Every `/tmp` dir was checked
+for `cwd` and open files (all 0) before removal. The running VS Code copy was identified from
+`ps` and excluded by name, so **nothing re-downloads**.
+
+**Verified untouched:** chat history 7.2 GB / 10,211 transcripts · 502 memory files ·
+330 workspace entries / 19 GB · the running VS Code + its extensions · 6 live scratchpads ·
+`/root/backups` 569 MB.
+
+🛑 **Blocked by the safety guard, NOT done** (offer again if Bob wants them):
+`/root/.cache/huggingface` **2.1 GB** · orphaned playwright `chromium-1148` **549 MB** ·
+the two downloaded video folders inside `/root/workspace`
+(`health-fitness-shorts/video` 157 MB — gitignored, re-download command is in its own CLAUDE.md —
+and `minimax-h3/ref/getvid-out` 25 MB). Deletions inside `/root/workspace` and `/root/.cache`
+were refused; `/tmp` and `/root/.vscode-server` were allowed.
+⚠ Videos were separated by **origin, not by extension**: our own generated output
+(`minimax-h3/ref/bob10` 176 MB — the clips Bob reviewed — and `ai-film-studio/film`) was never a
+target. Only downloaded/reference material was.
+
+## 🔴 RAM: 615 orphaned PHP processes hold 9.7 GB of 14 GB
+`free -h` = 10 Gi used, **504 Mi free, NO SWAP**. Cause is not Claude (3.4 GB across 7) — it is
+**612 orphaned `php8.1 -S` dev servers whose parent is now PID 1**, from `theeveningbrief`'s test
+harness, in three families: `teb-web-cron` 222 procs / 4.47 GB · `teb-feeds` 267 / 3.56 GB ·
+`teb-upstream` 123 / 1.62 GB. **Oldest has been running 19 days.** Each is a throwaway
+`php -S` on a random localhost port serving a `/tmp` dir that no longer exists.
+🛑 **NOT killed** — standing rule is never to remove or disable anything unasked. Flagged to Bob.
+Killing them returns ~9.6 GB of RAM; the real fix is whatever spawns them without reaping them.
