@@ -337,7 +337,8 @@ document.getElementById('dl').onclick=()=>{
   const a=document.createElement('a'); a.href=u; a.download='storage-decisions.txt'; a.click(); URL.revokeObjectURL(u);
 };
 
-Promise.all([fetch('projects.json').then(r=>r.json()),fetch('sysinv.json').then(r=>r.json())])
+const _v='?v='+Date.now();
+Promise.all([fetch('projects.json'+_v,{cache:'no-store'}).then(r=>r.json()),fetch('sysinv.json'+_v,{cache:'no-store'}).then(r=>r.json())])
  .then(([p,s])=>{P=p;S=s;draw();})
  .catch(e=>{document.querySelector('#t1 tbody').innerHTML='<tr><td colspan="7" class="empty">Could not load data: '+e+'</td></tr>';});
 </script></body></html>
