@@ -29,6 +29,11 @@ h1{font-size:22px;font-weight:650;letter-spacing:-.02em}
 .stat .n{font:650 21px var(--mono);letter-spacing:-.02em}
 .stat .l{font-size:11px;color:var(--dim2);text-transform:uppercase;letter-spacing:.07em;margin-top:2px}
 .stat.k .n{color:var(--keep)}.stat.m .n{color:var(--mig)}.stat.d .n{color:var(--del)}.stat.u .n{color:var(--dim)}
+.warn{background:#1c1a12;border:1px solid #4a3d18;border-left:3px solid var(--mig);border-radius:6px;padding:13px 16px;margin:18px 0 0;font-size:13px;line-height:1.6}
+.warn b{color:var(--ink)}
+.warn ol{margin:7px 0 0 18px;color:var(--dim)}
+.warn li{margin-bottom:5px}
+.warn code{font:12px var(--mono);background:#0d1117;padding:1px 5px;border-radius:3px;color:var(--acc)}
 /* toolbar */
 .bar{position:sticky;top:0;z-index:30;background:rgba(13,17,23,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:10px 0}
 .bar .wrap{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
@@ -113,6 +118,7 @@ footer{color:var(--dim2);font-size:12px;padding:30px 0 44px;border-top:1px solid
   <button class="chip" data-f="unpushed">Unpushed commits</button>
   <button class="chip" data-f="big">≥100 MB</button>
   <button class="chip" data-f="stale">Untouched 30d+</button>
+  <button class="chip" data-f="live">Has a service</button>
   <span class="spacer"></span>
   <button class="act" id="allkeep">Keep all visible</button>
   <button class="act" id="reset">Reset</button>
@@ -120,6 +126,13 @@ footer{color:var(--dim2);font-size:12px;padding:30px 0 44px;border-top:1px solid
 </div></div>
 
 <div class="wrap">
+  <div class="warn">
+    <b>Two things to know before you choose</b>
+    <ol>
+      <li><b>Deleting projects barely helps.</b> All 280 projects together are <b>24 GB of the 93 GB</b>. The other <b>58 GB is cache and scratch that rebuilds itself</b> — clearing that costs no work at all and is why the disk keeps refilling. Sort the second table by size and start there.</li>
+      <li><b>Two folders are running right now</b> and are marked <span class="tag bad">IN USE NOW</span>: <code>altvaulz-x</code> (cron, ran today) and <code>theeveningbrief</code> (257 live PHP processes). Separately, those 257 processes have been piling up since 21 Aug and hold <b>3.3 GB of RAM on a 14 GB box with no swap</b> — that is a leak worth a look, but I have not touched it.</li>
+    </ol>
+  </div>
   <div class="stats" id="stats" style="margin-top:18px"></div>
 
   <h2>Workspace projects <span id="c1"></span></h2>
@@ -204,6 +217,7 @@ function renderProjects(){
     if(filt==='unpushed'&&!(p.git&&(p.unpushed==='none'||p.unpushed>0))) return false;
     if(filt==='big'&&p.kb<102400) return false;
     if(filt==='stale'&&daysAgo(p.mod)<30) return false;
+    if(filt==='live'&&!p.live) return false;
     return match(p,p.name,(p.title||'')+' '+(p.blurb||''));
   });
   const k=sort1.k;
@@ -221,9 +235,9 @@ function renderProjects(){
       <td class="nm">${p.name}${note?`<span class="t">${esc(note)}</span>`:''}</td>
       <td class="sz">${fmt(p.kb)}</td>
       <td class="dt">${p.mod||'—'}<br><span style="color:var(--dim2)">${d<9999?d+'d ago':''}</span></td>
-      <td class="bk"><span class="tag ${b.c}">${b.t}</span>${rem}</td>
+      <td class="bk"><span class="tag ${b.c}">${b.t}</span>${p.live?`<span class="tag ${p.livestate==='running'?'bad':'n'}" style="margin-top:4px;display:inline-block">${p.livestate==='running'?'IN USE NOW':'SERVICE, STOPPED'}</span>`:''}${rem}</td>
       <td class="sz" style="color:${p.junk_kb>20480?'var(--mig)':'var(--dim2)'}">${p.junk_kb>1024?fmt(p.junk_kb):'—'}</td>
-      <td class="no">${esc(p.junk||'')}${p.files?`<span style="color:var(--dim2)"> · ${p.files} files</span>`:''}</td>
+      <td class="no">${p.live?`<b style="color:${p.livestate==='running'?'var(--del)':'var(--dim)'}">${esc(p.live)}</b><br>`:''}${esc(p.junk||'')}${p.files?`<span style="color:var(--dim2)"> · ${p.files} files</span>`:''}</td>
       <td class="ch">${seg('p:'+p.name,c)}</td></tr>`;
   }).join('');
 }
@@ -232,7 +246,7 @@ function renderSys(){
   let rows=S.filter(s=>{
     if(filt==='undecided'&&choice[s.path]) return false;
     if(filt==='big'&&s.kb<102400) return false;
-    if(filt==='nogit'||filt==='unpushed'||filt==='stale') return false;
+    if(filt==='nogit'||filt==='unpushed'||filt==='stale'||filt==='live') return false;
     return match(s,s.path,s.what+' '+s.note);
   });
   const k=sort2.k;

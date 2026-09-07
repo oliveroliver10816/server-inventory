@@ -27,7 +27,9 @@
 "junk_kb": 856,
 "junk": "",
 "title": "cloudbit-goldmine \u2014 CLOSED 2026-08-26",
-"blurb": "Do not restart, do not re-open, do not propose reviving this. Verdict stands: no edge."
+"blurb": "Do not restart, do not re-open, do not propose reviving this. Verdict stands: no edge.",
+"live": "Services now inactive+disabled (were live Aug 19). Safe to archive.",
+"livestate": "off"
 },
 {
 "name": "moneyprinterturbo",
@@ -132,7 +134,9 @@
 "junk_kb": 0,
 "junk": "",
 "title": "altvaulz-x \u2014 X (Twitter) monetization for @AltVaulz",
-"blurb": "Status 2026-07-27: RESEARCH COMPLETE, VERDICT DELIVERED. Nothing built, nothing posted, no account access"
+"blurb": "Status 2026-07-27: RESEARCH COMPLETE, VERDICT DELIVERED. Nothing built, nothing posted, no account access",
+"live": "LIVE CRON \u2014 runs 00:10 and 12:10 daily (last run today, OK). Deleting breaks it.",
+"livestate": "running"
 },
 {
 "name": "blastup-teardown",
@@ -357,7 +361,9 @@
 "junk_kb": 456,
 "junk": "",
 "title": "arbforge \u2014 project state",
-"blurb": "Bob: \"shutdown arbforge relay fleet \u00b7 backup the learnings \u2026 make sure NOTHING IS MISSED AT ALL.\""
+"blurb": "Bob: \"shutdown arbforge relay fleet \u00b7 backup the learnings \u2026 make sure NOTHING IS MISSED AT ALL.\"",
+"live": "Units inactive+disabled since 2026-08-01. Shut down.",
+"livestate": "off"
 },
 {
 "name": "glp3b",
@@ -1872,7 +1878,9 @@
 "junk_kb": 0,
 "junk": "",
 "title": "The Evening Brief \u2014 theeveningbrief.com",
-"blurb": "What it is: a dynamic US-first news aggregation site, modelled on (and built to beat)"
+"blurb": "What it is: a dynamic US-first news aggregation site, modelled on (and built to beat)",
+"live": "LIVE \u2014 257 php processes running from this folder right now (3.3 GB RAM).",
+"livestate": "running"
 },
 {
 "name": "theinfotainmenteconomy",
@@ -4107,7 +4115,9 @@
 "junk_kb": 0,
 "junk": "",
 "title": "Telegram Bridge (Claude Code \u2194 Telegram)",
-"blurb": "What it is: A small pure-Python (stdlib only) bridge that lets Dominic drive the local Claude Code CLI from Telegram \u2014 each Telegram \"thread\" keeps its own resumable Claude sessi"
+"blurb": "What it is: A small pure-Python (stdlib only) bridge that lets Dominic drive the local Claude Code CLI from Telegram \u2014 each Telegram \"thread\" keeps its own resumable Claude sessi",
+"live": "Unit exists but inactive+disabled.",
+"livestate": "off"
 },
 {
 "name": "wego6-backlinks2",
