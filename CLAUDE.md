@@ -53,3 +53,48 @@ localStorage persistence, export text and clipboard all exercised on the **live*
 - 🛑 A GitHub PAT for `oliveroliver10816` was printed into the session transcript by a failed
   `git remote add` (bad sed). **Flagged to Bob — recommend rotating that PAT.**
 - Nothing has been deleted. This is a read-only inventory.
+
+## 🛑 2026-09-07 — THE CLICK TRAP. Bob's selection was WRONG and it was my bug.
+
+He exported **72 deletes; 58 of them had been worked on within 30 days**, one edited that same
+day (`altvaulz-x`). He stopped the run: *"Projects that were recently worked on shouldn't be
+deleted. This page you created gave out some MORE pages / project names than I selected."*
+**He was right.**
+
+**Cause:** every Keep/Migrate/Delete click called a full `draw()`. With the **Undecided** filter
+on, the decided row stopped matching, vanished, and the list **shifted up under the cursor** —
+so each next click at the same screen position hit a *different* project. Proven: 5 clicks at a
+fixed position marked **5 different projects**; after the fix, **1**.
+
+**Fixed (live, re-verified on the published URL):**
+- `applyRow()` updates the clicked row **in place** — no re-render, the row never moves.
+  Filter/sort/search re-render only when the user changes them.
+- **Undo** button, stepping back through decisions one at a time (disabled when empty).
+- Age shown in **red** for anything ≤30 days, **TODAY** called out explicitly (120 of 280 rows).
+- New stat tile: **"Deletes worked on <30d"**.
+- The export now **leads with a WARNING block** naming every recent project in the delete set.
+
+⚠ **The test that would have caught it:** click the SAME coordinates N times and assert you hit
+the same row. My original tests clicked `rows[0]`, `rows[1]`, `rows[2]` **by index**, which can
+never expose this. See memory [[re-render-on-click-moves-the-next-target]].
+
+## State after the aborted deletion run — NOTHING WAS DELETED
+The safety scan ran before any `rm`, which is what left room to stop. All 72 folders intact,
+disk unchanged at 93 GB / 96%. Only additive changes were made:
+- `/root/backups/pre-delete-20260907/` (1.1 MB, 24 files) — every `CLAUDE.md`/`README` from the
+  72, the `openmontage` Pexels key + `blastup` server `.env`, and **newsradar's code**
+  (236 KB, media excluded — it is inside `moneyprinterturbo`, is not a git repo, and its cron is
+  only commented out, so deleting that folder would have destroyed it).
+- `poly-arb` working tree committed and pushed to a **new branch `archive-20260907-local`**
+  (remote `main` untouched — it had diverged).
+- `snow-safari` — his 2 unpushed commits pushed to main.
+- `abilene-teardown` — `.gitignore` change committed and pushed.
+- `altvaulz-x` left completely untouched, still holding its **24 untracked files including the
+  live `tracker.py` the cron runs** — "ON GITHUB" did NOT cover them.
+
+⭐ **Findings worth keeping from the scan:** `poly-arb`'s wallet key lives in
+`/root/.config/poly-arb-live/`, **outside** the folder, so the ~$13.68 was never at risk.
+🛑 **Two GitHub PATs were printed into the session transcript** by failed `git remote` commands
+whose sed mis-parsed the URL — **`oliveroliver10816` and `melvingoodman7507`. Rotate both.**
+A remote can be either `https://TOKEN@github.com/…` or `https://user:TOKEN@github.com/…`;
+match `^https://([^@/]+)@github\.com/` and never let git echo a URL it failed to resolve.
