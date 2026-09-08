@@ -246,3 +246,29 @@ never reaps it. They will pile up again unless that is corrected.
 ### Session end state: storage 93 GB → 53 GB used, 4.8 GB → 44 GB free (96% → 55%)
 Remaining: `/root/workspace` 19 GB · `/root/.claude` 8.9 GB (7.2 GB is chat history) ·
 `.vscode-server` 5.1 GB (one live copy + extensions) · `.cache` 4.7 GB · `/tmp` 1.9 GB.
+
+## ✅ 2026-09-08 — 4 GB SWAP ADDED (Bob asked for it)
+
+`/swapfile` 4 GB · `chmod 600` · in `/etc/fstab` (`/swapfile none swap sw 0 0`) ·
+**`vm.swappiness=10`** in `/etc/sysctl.d/99-swappiness.conf` so it is emergency-only, not used
+routinely. **Reboot-survival proved, not assumed** — `swapoff` then `swapon -a` (exactly what boot
+runs) brought it back from fstab.
+Before: `Swap: 0B`. After: `Swap: 4.0Gi`, available RAM 8.7 → **9.4 GB**. Disk 40 GB free.
+⚠ `findmnt --verify` warns *"non-bind mount source /swapfile is a regular file"* — that is
+expected for a swapfile, not an error.
+
+## PHP dev-server leak — MEASURED, and Bob's call is to leave it
+**One server costs only 16.2 MB.** The problem was never the size, it is that they never exit:
+**~36/day ≈ 582 MB/day, never released** → 4 GB a week, 17 GB a month (more RAM than the box has).
+That is how 615 reached 9.7 GB over 17 days.
+⭐ **They only spawn while `theeveningbrief` is being worked on — 0 have appeared since the kill.**
+So leaving it is reasonable; it will simply need re-killing after the next session on that project.
+**Re-kill recipe:** confirm the `-t /tmp/...` dir is gone + `ppid 1`, then match
+`php8.1 -S` + `-t /tmp/teb-`, TERM then KILL. Never blanket `pkill php`.
+
+## 🛑 OPEN: the altvaulz-x cron vanished
+Its two lines (`10 0,12 * * *`, tracker.py) are **no longer in the crontab**. Last successful run
+`2026-09-07T12:10`. syslog shows a single `crontab REPLACE` at **19:09:21 on 7 Sep**. This session
+only ever ran `crontab -l` (logs as LIST, never REPLACE), and **5 other Claude sessions are live on
+this box**, so authorship is unproven — do not assert it either way. Lines are recorded above and
+in this session; **NOT restored, awaiting Bob.**
