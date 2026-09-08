@@ -216,3 +216,33 @@ harness, in three families: `teb-web-cron` 222 procs / 4.47 GB · `teb-feeds` 26
 `php -S` on a random localhost port serving a `/tmp` dir that no longer exists.
 🛑 **NOT killed** — standing rule is never to remove or disable anything unasked. Flagged to Bob.
 Killing them returns ~9.6 GB of RAM; the real fix is whatever spawns them without reaping them.
+
+## ✅ 2026-09-08 — PHP LEAK KILLED. RAM 10.4 GB → 5.5 GB used.
+
+**615 orphaned `php8.1 -S` dev servers killed** on Bob's instruction (*"yeah yeah kill!!"*).
+
+**Proof they were dead weight, gathered before killing anything:**
+- **All 391 directories they served were already deleted** — every one was answering for a
+  `/tmp/teb-*` path that no longer existed.
+- **614 of 615 had `ppid 1`** — their launcher had died, so nothing would ever reap them.
+- No Evening Brief process runs on this box at all (the site is on Heroku), so none of these
+  were serving anything real. Oldest had been up **19 days**.
+- Three stragglers (`fuzz-*`, `host-*`) were the same shape and went with them.
+
+Killed by exact match on `php8.1 -S` + `-t /tmp/teb-`, TERM then KILL, never a blanket `pkill php`.
+
+| | before | after |
+|---|---|---|
+| RAM used | 10.4 GB | **5.5 GB** |
+| RAM free | 268 MB | **6.4 GB** |
+| available | 2.6 GB | **8.7 GB** |
+| php processes | 615 | **0** |
+
+Top consumer is now Claude itself (3.8 GB / 7 procs), which is expected.
+⚠ **Box still has ZERO swap** — see [[claude-oom-killed-no-swap]].
+⚠ **Root cause NOT fixed** — something in `theeveningbrief`'s harness spawns `php -S` per run and
+never reaps it. They will pile up again unless that is corrected.
+
+### Session end state: storage 93 GB → 53 GB used, 4.8 GB → 44 GB free (96% → 55%)
+Remaining: `/root/workspace` 19 GB · `/root/.claude` 8.9 GB (7.2 GB is chat history) ·
+`.vscode-server` 5.1 GB (one live copy + extensions) · `.cache` 4.7 GB · `/tmp` 1.9 GB.
