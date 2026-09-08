@@ -272,3 +272,39 @@ Its two lines (`10 0,12 * * *`, tracker.py) are **no longer in the crontab**. La
 only ever ran `crontab -l` (logs as LIST, never REPLACE), and **5 other Claude sessions are live on
 this box**, so authorship is unproven — do not assert it either way. Lines are recorded above and
 in this session; **NOT restored, awaiting Bob.**
+
+## ✅ 2026-09-08 — FULL SERVER BACKUP TO THE BEAST. 187 parts, 16.12 GB, 0 failures.
+
+Bob: *"Lets BACKUP EVERY SHIT we have here… make a backup on the BEAST"*.
+Landed at **`E:\srvbackup\2026-09-08\`** on `DESKTOP-SFLR7D9` (E: had 1.82 TB free, now 1.81 TB).
+
+| tree | parts | size | contents |
+|---|---|---|---|
+| `system` | 1 | 0.01 GB | `/etc`, root crontab, `/var/www` |
+| `rootmisc` | 19 | 1.58 GB | `/root` minus workspace/.claude/caches — **includes `/root/.config` = credentials** |
+| `claude` | 56 | 4.83 GB | 10,211 transcripts, 502 memory files, skills |
+| `workspace` | 111 | 9.68 GB | all 330 projects |
+| **total** | **187** | **16.12 GB** | |
+
+⭐ **Verified, not assumed: MD5 of all 187 parts computed independently on the Beast and compared
+to the local manifest — 187/187 identical, 0 missing, 0 extra, 0 mismatches.** `MANIFEST.txt` and
+a `README.txt` restore guide sit next to the parts (manifest md5 matched after transfer too).
+Local copy of the manifest: `/root/backups/srvbackup-2026-09-08-manifest.txt`.
+Restore: `cat srvbk-<tree>-*.part* | tar xzf - -C /` (parts are zero-padded, a plain glob sorts).
+
+### 🛑 THE REAL TRANSPORT LIMIT IS CLOUDFLARE'S ~100 MB, NOT THE UPLOADER'S 2 GB
+The quick tunnel returns **HTTP 413 Payload Too Large** above ~100 MB. Parts are 90 MB.
+Throughput **17 MB/s**; 16 GB in ~40 min. Staging holds ONE part, so local disk never moved off
+40 GB free.
+
+### ⚠ Three self-inflicted failures on this job — all avoidable by one 90 MB probe first
+1. **`curl --data-binary @file` buffers the WHOLE file into RAM** → OOM on a 1.4 GB part
+   (fine on the 15 MB one, which is why it passed first). **Use `curl -T`** — streams from disk
+   and sets `Content-Length` itself, which this uploader requires (it rejects chunked bodies).
+2. **Edited the uploader without `bash -n`** → a stray `fi` killed every subsequent part with a
+   syntax error, and `split --filter` reported it only as `exit 2`.
+3. **Picked the part size from the uploader's `MAX_BYTES` instead of testing the path.**
+⇒ **Probe the transport with one real-sized file and verify the hash before launching a long run.**
+⚠ `get_tunnel.py` output includes `beastrun`'s own `[job] ran on …` status line — filter for
+`https://…trycloudflare\.com`, never `| tail -1`.
+⚠ The upload token is passed as **`?t=`** or header **`x-upload-token`** — *not* `?token=`.
